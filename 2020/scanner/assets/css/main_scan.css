@@ -402,6 +402,8 @@ a{
   color: white;
 }
 
+
+
 /*------titolo testo immagini sezioni---------*/
 
 .colonna {
@@ -599,53 +601,7 @@ div.testo{
 	display: flex;
 
 }
-.colophon{
-	width: 650px;
-	padding-left: 100px;
-	margin-top: 300px;
-	position: relative;
 
-}
-.p_1{
-	font-size: 19pt;
-	margin-top: 175px;
-	position: absolute;
-	width: 350px;
-	padding-left: 100px;
-}
-.p_2{
-	font-size: 29pt;
-	margin-top: 100px;
-	font-family: "Avenir Next Bold";
-	position: absolute;
-	width: 650px;
-	padding-left: 100px;
-}
-h2{
-	font-size: 24pt;
-}
-
-.sito{
-	margin-top: 300px;
-	position: absolute;
-	font-size: 12pt;
-	padding-left: 100px;
-}
-#sitiutilizzati{
-
-}
-.N2{
-	margin-top: 340px;
-	left: 100px;
-	position: relative;
-	color: white;
-	
-}
-.li2{
-	float: unset;
-	width: 600px;
-	line-height: 1.6em;
-}
 
 
 }
