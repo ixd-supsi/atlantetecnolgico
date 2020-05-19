@@ -1,0 +1,576 @@
+*, *:before, *:after{
+	box-sizing: border-box;
+}
+
+
+body {background-color: black; color: white; font-family: Helvetica; font-size: 15px; padding-left: 5%; padding-right: 5%; color: white;}
+h1 {font-family: Helvetica; font-weight: bold; color: white; margin-bottom: 10%; margin-top: 15%; position: absolute; background-image: url("pixelrossi.jpeg"); text-shadow: 0px 0px 15px #FFFFFF;}
+h4 {font-family: Helvetica; font-weight: bold; font-size: 5vh; margin-bottom: 0%; color: #F5F5F5; text-shadow: 0px 0px 15px #FFFFFF;}
+h6 {font-family: Helvetica; font-weight: bold; font-size: 2.6vh; margin-bottom: 0%; color: #F5F5F5; margin-top: 10%;}
+
+p {font-size: 15px; color: #F5F5F5;}
+
+.paragrafi-sinistra {padding-right: 55%;}
+
+.paragrafi-destra {padding-bottom: 2%; padding-left: 55%;}
+
+#didascalie {font-style: italic; font-size: 13px; margin-top: 1%;}
+
+#indietro {padding-top: 60px; position: absolute;}
+
+#piuspazio {margin-top: 18%;}
+
+#fonti {margin-top: 3%;}
+
+/* Didascalie sotto immagini al vivo */
+
+#didascalie_destra {font-style: italic; font-size: 13px; float: right; padding-right: 5%; color: grey; padding-bottom: 5%;}
+#didascalie_sinistra {font-style: italic; font-size: 13px; float: left; padding-left: 5%; color: grey; padding-bottom: 5%;}
+
+
+/* Titoli sotto le immagini al vivo per lasciare spazio tra titolo, immagine e didascalie  */
+
+#CRT {margin-top: 10%;}
+#AMOLED {margin-top: 10%;}
+#LCD {margin-top: 10%;}
+#LED {margin-top: 10%;}
+
+
+
+/* style link "indietro"  */
+
+a {
+  color: #F5F5F5;
+  font-family: Helvetica;
+}
+
+
+/* immagini al vivo */
+.alignfull {
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+    max-width: 1000%;
+    width: auto;
+}
+
+
+img.PixelRossi {width: 100%; height: auto; align-content: center;}
+
+
+img.Las-Vegas { width: 22%; height: auto;}
+img.Radar { width: 45%; height: auto;}
+
+
+img.brauntube {width: 45%; height: auto; margin-bottom: 2%;}
+img.crt {width: 32%; height: auto; padding-bottom: 2%; margin-right: 20%;}
+img.CRT_PC {width: 14%; height: auto; margin-right: 1%; margin-bottom: 1%;
+              -moz-border-radius: 180px;
+              -webkit-border-radius: 180px;
+              border-radius: 180px;}
+
+
+img.CRT_TV {width: 14%; height: auto; margin-bottom: 1%;
+              -moz-border-radius: 180px;
+              -webkit-border-radius: 180px;
+              border-radius: 180px;}
+
+
+img.CRT_Phosphors {width: 100%; height: auto; margin-top: 3%;}
+img.pixel_3 {width: 100%; height: auto; margin-top: 5%;}
+
+img.diode {width: 47%; height: auto; margin-bottom: 1%;}
+img.hello {width: 49%; height: auto; margin-bottom: 1%;}
+img.Pixel_LED {width: 32%; height: auto; padding-left: 1%;
+              -moz-border-radius: 180px;
+              -webkit-border-radius: 180px;
+              border-radius: 180px;}
+
+img.primoplasma {width: 32%; height: auto;}
+img.lampada {width: 60%; height: auto;}
+
+img.liquid {width: 100%; height: auto; margin-top: 5%;}
+
+img.Heilmeier {width: 46.5%; height: auto;}
+img.arduino {width: 50.5%; height: auto; margin-left: 2%;}
+img.Pixel_lcd {width: 32%; height: auto; padding-left: 1%;
+              -moz-border-radius: 180px;
+              -webkit-border-radius: 180px;
+              border-radius: 180px;}
+
+
+img.oledpanels {width: 60%; height: auto;}
+img.edge {width: 40%; height: auto; margin-top: 2%; margin-bottom: 2%;}
+
+
+img.Pixel_OLED {width: 32%; height: auto; padding-left: 1%;
+              -moz-border-radius: 180px;
+              -webkit-border-radius: 180px;
+              border-radius: 180px;}
+
+img.firsttouch {width: 45%; height: auto;}
+img.touch {width: 51%; height: auto; margin-left: 3%; margin-top: 1%;}
+
+img.Samsunggalaxy {width: 32%; height: auto; margin-right: 5%;
+              -moz-border-radius: 180px;
+              -webkit-border-radius: 180px;
+              border-radius: 180px;}
+
+img.PixelAppleWatch {width: 33%; height: auto;
+              -border-radius: 180px;
+              -webkit-border-radius: 180px;
+              border-radius: 180px;}
+
+
+img.amoledbig {width: 100%; height: auto; margin-top: 3%;}
+
+img.macroamoled {width: 32%; height: auto; padding-left: 1%;
+              -moz-border-radius: 180px;
+              -webkit-border-radius: 180px;
+              border-radius: 180px;}
+
+img.nokia {width: 50%; height: auto;}
+img.fold {width: 45%; height: auto;}
+
+img.Iphone11 {width: 45%; height: auto;}
+
+img.IphoneX {width: 32%; height: auto; padding-left: 1%;
+              -moz-border-radius: 180px;
+              -webkit-border-radius: 180px;
+              border-radius: 180px;}
+
+img.retina {width: 40%; height: auto; padding-top: 2%; padding-bottom: 3%;}
+
+img.qled {width: 20%; height: auto;}
+
+img.QLED {width: 48%; height: auto;}
+img.QD {width: 48%; height: auto; padding-bottom: 2%;}
+img.qledpixel {width: 32%; height: auto; padding-left: 1%;
+              -moz-border-radius: 180px;
+              -webkit-border-radius: 180px;
+              border-radius: 180px;}
+
+
+/* responsive immagini */
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+/* a = il link - tutte le proprietà riguardanti il link della lista di dispay */
+
+/* sticky navbar desktop*/
+
+nav {
+  width: 100%;
+  height: 50px;
+  background: rgba(0, 0, 0, .7);
+  position: sticky;
+  top: 0px;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0 5%;
+  float: center;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  display: block;
+  color: #ffffff;
+  padding: 0 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 50px;
+  transition: background-color .5s;
+}
+
+nav ul li a:hover {
+  background-color: white;
+  box-shadow: -1px -1px 25px #FFFFFF;
+  opacity: 0.88;
+  color: black;
+}
+
+nav ul li a.active {
+    background-color: white;
+    opacity: 0.88;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+/* NAVBAR MOBILE 2 */
+
+
+.alignfull_mobile {
+
+  display: none;
+  position: sticky;
+  top: 0px;
+}
+
+.alignfull_mobile a {
+  float: left;
+  font-size: 15px;
+  color: white;
+  text-align: left;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+
+.dropdown .dropbtn {
+  cursor: pointer;
+  font-size: 15px;  
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: white;
+  font-family: inherit;
+  margin: 0;
+}
+
+.alignfull_mobile ul li {
+  list-style: none;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background: rgba(0, 0, 0, .7);
+  min-width: 440px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: #FFFFFF;
+  padding: 8px 0px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+
+}
+
+.dropdown-content a:active {
+  background-color: #ddd;
+  box-shadow: -1px -1px 25px #FFFFFF;
+  color: black;
+}
+
+.show {
+  display: block;
+}
+
+
+
+
+/* responsive testi e navbar */
+
+
+@media only screen and (max-width: 768px) {
+  .paragrafi-sinistra {
+    padding-right: 40%;
+  }
+
+  .paragrafi-destra {
+    padding-left: 40%;
+  }
+
+  #cosasono {
+      margin-top: 10%
+  }
+
+}
+
+@media only screen and (max-width: 600px) 
+  {
+    .paragrafi-sinistra {
+      padding-right: 0%;
+    }
+
+    .paragrafi-destra {
+      padding-left: 0%;
+    }
+
+    p{
+      font-size: 0.85em;
+    }
+
+    h4 {
+      font-size: 1.6em;
+      margin-top: 10%;
+    }
+
+    h6 {
+      font-size: 1em;
+    }
+
+    a {
+      font-size: 0.70em;
+      color:  #F5F5F5;
+    }
+
+    .text_1 {
+      margin-left: 13%;
+      margin-top: 10%;
+    }
+
+    #didascalie {
+      font-size: 0.70em;
+    }
+
+    #didascalie_destra {
+      font-size: 0.70em;
+    }
+
+    #didascalie_sinistra {
+      font-size: 0.70em;
+    }
+
+    #cosasono {
+      margin-top: 25%
+    }
+
+    nav ul li a {
+    display: none;
+    }
+
+    .alignfull_mobile ul li a {
+    display: block;
+    }
+
+    .alignfull_mobile {
+    display: block;
+    }
+
+}
+
+/* responsive colonne */
+
+@media screen and (min-width: 600px) {
+  .column {
+    flex: 1
+  }
+
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+
+
+  .some-page-wrapper {
+    padding-bottom: 3%;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
+
+
+  #column_right {
+    margin-left: 10%;
+  }
+
+
+  .column a {
+    color: #F5F5F5;;
+    font-size: 13px;
+  }
+
+
+  #columntitle {
+    margin-bottom: 0%;
+  }
+
+}
+
+
+
+
+
+
+
+
+/* indice shadow
+
+a {
+  color: #F5F5F5;
+  font-weight: lighter;
+  text-decoration: none;
+  -moz-transition: all 0.1s ease-in;
+  -o-transition: all 0.1s ease-in;
+  -webkit-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
+  padding-left: 3%;
+}
+
+}
+
+a:hover {
+  color: white;
+  text-shadow: -5px -5px 15px #FFFFFF;
+  -moz-transition: all 0.1s ease-in;
+  -o-transition: all 0.1s ease-in;
+  -webkit-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
+}
+
+
+a: visited {
+   color: #3A3A3A;
+    }
+
+
+*/
+
+
+
+
+/* Transizione di colore del titolo h1 
+
+h1 {
+  animation-name: demo;
+  animation-duration: 3s;
+  animation: demo 3s infinite
+}
+
+
+@keyframes demo {
+  0%   {color:white;}
+  25%  {color: #42FF33;}
+  50%  {color: blue;}
+  75%  {color: red;}
+  100% {color:white;}
+}
+
+*/
+
+
+/* sticky navbar mobile
+
+.alignfull_mobile {
+  display: none;
+  width: 0%;
+  height: 0%;
+  background: rgba(0, 0, 0, .7);
+  position: sticky;
+  top: 0px;
+  margin-bottom: 5%;
+  padding-top: 0%;
+}
+
+.alignfull_mobile ul{
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0 0%;
+  float: left;
+}
+
+.alignfull_mobile ul li {
+  list-style: none;
+}
+
+/* sticky navbar mobile - scritta nel dropdown
+
+.alignfull_mobile ul li a {
+  display: none;
+  color: #ffffff;
+  padding: 0 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 35px;
+  transition: background-color .5s;
+  font-size: 15px;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* sticky navbar mobile - box e scritta MENU
+
+.dropdown .dropbtn {
+  font-size: 15px;  
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: #FFFFFF;
+  opacity: 0.88;
+  box-shadow: -1px -1px 25px #FFFFFF;
+  font-family: inherit;
+  margin: 0;
+}
+
+/* sticky navbar mobile - MENU hover
+
+.alignfull_mobile a:hover, .dropdown:hover .dropbtn {
+  background-color: white;
+  box-shadow: -1px -1px 25px #FFFFFF;
+  opacity: 0.88;
+  color: black;
+}
+
+
+/* sticky navbar mobile - colore del box dropdown min-width = dimensione del dropdown
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  opacity: 0.88;
+  min-width: 440px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* sticky navbar mobile - colore del box quando ci passo sopra
+
+.dropdown-content a:hover {
+  background-color: #FFFFFF;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+ 
+ */
+

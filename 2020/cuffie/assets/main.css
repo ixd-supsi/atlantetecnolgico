@@ -1,0 +1,518 @@
+*, *:before, *:after{
+	box-sizing: border-box;}
+
+@media only screen (max-width: 600px){
+	{
+		width: 30%;
+		margin-left: 5%;
+	}
+}
+
+body{
+	background-color: black;
+	color:#f9f9f9;
+	font-family: Times;
+	line-height: 1.4;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+
+.bottone{
+	text-decoration: none;
+	font-size: 20px;
+	position: absolute;
+	bottom: 950px;
+	left: 50px;
+
+}
+
+
+
+.contenitore{
+	margin: 0 auto; /* per centrare gli elementi*/
+	width: 90%;
+
+}
+
+.container{
+	position: relative;
+}
+
+.titolo_immagine{
+	position: absolute;
+	bottom: 180px;
+	left: 50px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background: rgb(0 0 0);
+	background: rgba(0, 0, 0, 0.8);
+
+}
+
+
+.sott{
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.copertina{
+	width: 100vw;
+	position: relative;
+}
+
+
+
+
+nav{
+	width: 100%;
+	height: 60px;
+	border-top: 1px solid rgba(255,255,255,.2)
+	border-bottom:1px solid rgba(255,255,255,.2);
+	position: sticky;
+	top: 0px;
+	background-color: black;
+}
+
+nav ul{
+	text-align: center;
+	display: flex;
+	margin: 0;
+	padding: 0 100px;
+}
+
+nav ul li{
+	display: inline-block;
+	list-style: none;
+}
+
+nav ul li a{
+	padding: 10px;
+	text-transform:uppercase;
+	color: rgba(241, 241, 241, 0.7);
+	font-size: 17px;
+	text-decoration: none;
+	display: block;
+	font-weight: bold;
+	line-height: 20px;
+}
+
+nav ul li a:hover{
+	 box-shadow: 0 0 10px
+}
+
+
+
+
+
+
+h1 {
+	font-size: 40px;
+	position: relative;
+}
+
+.sottotitolo{
+	font-size: 25px;
+}
+
+h2 {
+	font-size: 30px;
+	margin-bottom: 9%;
+}
+
+h3{
+	font-size:20px;
+	text-align: left;
+	margin-top: 0px;
+	letter-spacing: 0.6px;
+	margin-bottom: 50px;
+}
+
+h4{
+	font-size: 17px;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	letter-spacing: 0.3px;
+}
+
+h5{
+	font-size: 10px;
+	letter-spacing: 0.3px;
+}
+
+p{
+	font-size: 102%;
+	margin-top: 0px;
+	margin-bottom: 30px;
+	letter-spacing: 0.3px;
+}
+
+a{
+	color: white;
+	font-size: 95%;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.date{
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.dropbtn {
+    background-color: black;
+    color: white;
+    margin-left: 60px;
+    font-size: 20px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    margin-left: 60px;
+    font-size: 15px;
+
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: lightgrey;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: grey;}
+
+
+
+
+
+
+.testo_intro {
+	margin-left: 30%;
+	margin-right: 30%;
+	margin-bottom: 15%;
+	margin-top: 10%;
+	font-size: 85%;
+}
+
+
+
+
+
+
+.primo_periodo{
+	margin-left:30%;
+	margin-right: 30%;
+	margin-bottom:5%;
+
+}
+.secondo_periodo{
+	margin-left:30%;
+	margin-right:30%;
+	margin-bottom:5%;
+}
+
+.terzo_periodo{
+	margin-left:30%;
+	margin-right:30%;
+	margin-bottom:5%;
+}
+
+.quarto_periodo{
+	margin-left:30%;
+	margin-right:30%;
+	margin-bottom:5%;
+}
+
+.quinto_periodo{
+	margin-left:30%;
+	margin-right:30%;
+	margin-bottom:5%;
+}
+
+.sesto_periodo{
+	margin-left:30%;
+	margin-right:30%;
+	padding-bottom:2%;
+}
+
+.settimo_testo{
+	margin-left:30%;
+	margin-right:30%;
+	margin-bottom: 5%;
+}
+
+.ottavo_periodo{
+	margin-left:30%;
+	margin-right:30%;
+	margin-bottom: 5%;
+}
+
+.dispo_odie{
+	margin-left:30%;
+	margin-right:30%;
+	margin-bottom: 5%;
+}
+
+
+
+
+
+
+.ernest {
+	width: 17%;
+}
+
+.baldwin {
+	width: 17%;
+}
+
+.immaginona{
+	width: 100vw;
+	margin-bottom: 5%;
+}
+
+.DT{
+	width: 7%;
+}
+
+.koss {
+	width:18%;
+}
+
+.Sennheiser{
+	width: 18%;
+}
+
+.walkman {
+	width: 13%;
+	padding-bottom: 5%;
+}
+
+.airpods{
+	width: 15%;
+}
+
+
+
+
+
+.cata{
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.catalogo_uno{
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 5%;
+}
+
+.catalogo_uno div{
+	width: 30%;
+}
+
+.catalogo_due{
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 10%;
+}
+
+.catalogo_due div{
+	width: 30%;
+}
+
+.one{
+	border: solid;
+	border-color: white;
+	border-width: 1px;
+	padding: 2%;
+}
+
+.two{
+	border: solid;
+	border-color: white;
+	border-width: 1px;
+	padding:2%;
+}
+
+.three{
+	border: solid;
+	border-color: white;
+	border-width: 1px;
+	padding: 2%;
+}
+
+.four{
+	border: solid;
+	border-color: white;
+	border-width: 1px;
+	padding: 2%;
+}
+
+.five{
+	border: solid;
+	border-color: white;
+	border-width: 1px;
+	padding:2%;
+}
+
+.six{
+	border: solid;
+	border-color: white;
+	border-width: 1px;
+	padding: 2%;
+}
+
+.mini{
+	font-size: 87%;
+}
+
+
+
+
+.esterne{
+	width: 41%;
+	/*per centrare un'immagine*/
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.circum{
+	width: 39%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+}
+
+.sovra{
+	width: 41%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 87px;
+}
+
+.aperte{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+}
+
+.auri{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 48%;
+	margin-top: -15px;
+}
+
+.intra{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 31%;
+	margin-top: 65px;
+}
+
+
+
+
+
+.pecu_intro{
+	margin-left: 30%;
+	margin-right: 30%;
+	margin-bottom: 10%;
+}
+
+
+
+.contuno{
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 3%;
+	padding-left: 22%;
+	padding-right: 22%;
+}
+
+.contuno div{
+	width: 43%;
+}
+
+.contdue{
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 5%;
+	padding-left: 22%;
+	padding-right: 22%;
+}
+
+.contdue div{
+	width: 43%;
+}
+
+
+
+
+
+
+
+.tit_siti{
+	padding-top: 5%;
+}
+
+.siti{
+	margin-bottom: 5%;
+	margin-top: -20px;
+	line-height: 1.8;
+}
+
+.contenitore_box{
+	position: relative;
+}
+
+
+.rettangolo{
+	height: 200px;
+	width:100vw;
+	background-color: #1d1d1d;
+}
+
+.colophon{
+	position: absolute;
+	bottom: 40px;
+	left: 50px;
+	font-size: 10px;
+	line-height: -1;
+}
+
+.tit_col{
+	font-size: 15px;
+	margin-bottom: 0px;
+	letter-spacing: 1px;
+}
+
+.tito_col{
+	font-size: 11px;
+	margin-bottom: 0px;
+	letter-spacing: 0.7px;
+}
+
+
+
