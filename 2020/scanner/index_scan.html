@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Atlante Tecnologico</title>
+	<meta name="author" content="Nome Cognome">
+	<meta name="copyright" content="©2020">
+	<meta name="description" content="Atlante tecnologico: lo scanner">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="assets/css/main_scan.css">
+</head>
+<body>
+	<div class="contenitore">
+
+		<!----------------menu------------->
+
+		
+
+			<div type="button "class="container" onclick="myFunction(this)">
+	  			<div class="bar1"></div>
+	  			<div class="bar2"></div>
+	  			<div class="bar3"></div>
+			</div>
+
+		
+
+		<div id="myDIV">
+
+			<ul>
+			  <li><a href="#home">HOME</a></li>
+			  <li><a href="#storia">STORIA</a></li>
+			  <li><a href="#news">NUOVI UTILIZZI</a></li>
+			  
+			  
+			</ul>
+			
+		</div>
+
+		<script>
+			 function myFunction(x) {
+  			x.classList.toggle("change");
+  			var x = document.getElementById("myDIV");
+
+			  
+			 if (x.style.display === "none") {
+			   x.style.display = "block";
+			 } 
+			  else {
+			   x.style.display = "none";
+			  }
+			} 
+
+			
+
+
+
+			
+		</script>
+
+		
+
+		<!----------------menu-------------->
+		<a href="https://ixd-supsi.github.io/atlantetecnolgico/">
+		<img id="indietro" src="assets/img/4Risorsa 2@300x.png" alt="">
+		</a>
+		
+		<div id="indi">
+			<p>Indietro</p>
+		</div>
+
+
+
+		<!-------------------------
+
+
+		<div class="logo">
+
+			<img src="assets/img/logo_s.png" class="logo_top" alt="">
+		
+		</div>
+
+		------------>
+
+		<section id=home>
+			
+			<div class="copertina">
+				<div class="immagini">
+					<!-- <img src="assets/img/IMG_2026.gif" class="gif"> -->
+					<img src="assets/img/scanner_2.png" class="scanner" alt="">
+				</div>
+
+
+				<!-- <h2 class="introduzione">INTRODUZIONE</h2> -->
+
+				<div class="colonna_intro">
+
+					<p>
+					Lo scanner o lettore ottico di immagini, è una periferica in grado di acquisire in modalità ottica una superficie analogica che siano fogli stampati, pagine, fotografie, diapositive, interpretarla come un insieme di pixel, e quindi di ricostruirne la copia fotografica sotto forma di immagine digitale. Il processo e il prodotto dell'acquisizione sono detti scansione, che descrive per l'appunto l'azione di rilevare e trasmettere i dettagli dell'immagine scandita. Dalla sua prima applicazione il sistema di scansione di immagini ha subito evoluzioni non indifferenti, ha raggiunto livelli altissimi in termini di qualità e rapidità di produzione, oggi anche il suo impiego è fondamentale in innumerevoli campi. Già dopo mezzo secolo dalla sua invenzione hanno cominciato ad intuire la versatilità di questo sistema di riproduzione delle immagini. La sua commercializzazione ha portato cambiamenti importanti per documentazioni, archivi, fotografie e opere d’arte, tanto che ne hanno identificato questo fenomeno come “dematerializzazione”.
+					
+					</p>
+				
+				</div>
+			</div>
+		</section>
+
+
+<!------------------------------>
+		
+
+		<section id=storia>
+
+			<!-----------------
+
+			<div class="slide_show">
+
+				<div class="img_size fade" >
+
+					<img src="assets/img/pantelegrafo.jpg"  class="p_img" alt="">
+
+				</div>
+
+				<div class="img_size fade" >
+
+					<img src="assets/img/pantelegrafopng.jpg" class="p_img" alt="">
+
+				</div>
+
+				<div class="img_size fade" >
+
+					<img src="assets/img/belindet.jpg" class="p_img" alt="">
+
+				</div>
+
+
+				<a class="prev" onclick="plusSlides(-1)">&#9664;</a>
+				<a class="next" onclick="plusSlides(1)">&#9654;</a>
+
+			</div>	
+
+			<script>
+				var slideIndex = 1;
+				showSlides(slideIndex);
+
+				function plusSlides(n) {
+				  showSlides(slideIndex += n);
+				}
+
+				function currentSlide(n) {
+				  showSlides(slideIndex = n);
+				}
+
+				function showSlides(n) {
+				  var i;
+				  var slides = document.getElementsByClassName("img_size");
+				  var dots = document.getElementsByClassName("dot");
+				  if (n > slides.length) {slideIndex = 1}    
+				  if (n < 1) {slideIndex = slides.length}
+				  for (i = 0; i < slides.length; i++) {
+				      slides[i].style.display = "none";  
+				  }
+				  for (i = 0; i < dots.length; i++) {
+				      dots[i].className = dots[i].className.replace("active", "");
+				  }
+				  slides[slideIndex-1].style.display = "block";  
+				  dots[slideIndex-1].className += "active";
+				}
+
+			</script>
+
+			--------->
+
+			<div class="slide_show">
+
+				<div class="img_size fade">
+  
+				  <img src="assets/img/pantelegrafo.jpg" class="p_img">
+				  <div class="text">Pantelegrafo dell'abate Giovanni Caselli, replica del 1933. Esposto al Museo nazionale della scienza e della tecnologia Leonardo da Vinci, Milano.</div>
+				</div>
+
+				<div class="img_size fade">
+				  
+				  <img src="assets/img/pantelegrafopng.jpg" class="p_img">
+				  <div class="text">Pantelegrafo di Giovanni Caselli, replica del 1960</div>
+				</div>
+
+				<div class="img_size fade">
+				  
+				  <img src="assets/img/belindet.jpg" class="p_img">
+				  <div class="text">Pantelegrafo di Giovanni Caselli, replica, particolare. Esposto al Museo nazionale della scienza e della tecnologia Leonardo da Vinci, Milano.</div>
+				</div>
+
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+			</div>
+
+			<script>
+				var slideIndex = 1;
+				showSlides(slideIndex);
+
+				function plusSlides(n) {
+				  showSlides(slideIndex += n);
+				}
+
+				function currentSlide(n) {
+				  showSlides(slideIndex = n);
+				}
+
+				function showSlides(n) {
+				  var i;
+				  var slides = document.getElementsByClassName("img_size");
+				  // var dots = document.getElementsByClassName("dot");
+				  if (n > slides.length) {slideIndex = 1}    
+				  if (n < 1) {slideIndex = slides.length}
+				  for (i = 0; i < slides.length; i++) {
+				      slides[i].style.display = "none";  
+				  }
+				  // for (i = 0; i < dots.length; i++) {
+				  //     dots[i].className = dots[i].className.replace(" active", "");
+				  // }
+				  slides[slideIndex-1].style.display = "block";  
+				  // dots[slideIndex-1].className += " active";
+				}
+			</script>
+
+
+
+
+
+			<div class="colonna">
+
+				<div class="titolo"><h4>Storia</h4></div>
+
+				<div class="titolo"><h2>LA SCOPERTA</h2></div>
+
+				<div class="testo">
+					
+					<div class="column" style="background-color:;">
+    					
+   						<p>Gli scanner moderni sono considerati i successori dei primi dispositivi di input per telefonia e fax. Nel 1855 Giovanni Caselli sviluppò il Pantelegrafo, un dispositivo di telecomunicazione in grado di trasmettere immagini statiche in modo simile all'odierno telefax. Il sistema era in grado di riprodurre a distanza qualunque segno (caratteri, linee, immagini al tratto) effettuando una scansione per linee successive come avviene attualmente nella televisione, ma a bassa velocità. Nell'apparato trasmittente il disegno da inviare era tracciato su un foglio metallico con un inchiostro elettricamente isolante. Una volta essiccato l'inchiostro, un pennino collegato alla linea telegrafica esplorava tutto il foglio una riga per volta, chiudendo il circuito dove l'inchiostro era assente ed aprendolo in corrispondenza dell'immagine. Nell'apparato ricevente era riprodotto lo stesso percorso di scansione del pennino, che in questo caso esplora un foglio di carta trattato chimicamente (con ferrocianuro di potassio). Dove si ha passaggio di corrente elettrica avviene una reazione elettrochimica che provoca l'annerimento della carta. Al termine della scansione si ottiene una riproduzione del disegno originale. I due apparati, ricetrasmittenti devono muoversi in sincronia. Per questo motivo il meccanismo di ciascuna unità è mosso da un pendolo, alto circa due metri, mosso da due elettromagneti, l'oscillazione è sincronizzata per mezzo di impulsi elettrici inviati sulla stessa linea di trasmissione. Poteva trasmettere grafia, firme o disegni in un'area fino a 150 × 100 mm.</p>
+  					</div>
+
+  				</div>	
+				
+			</div>
+
+		</section>
+
+<!------------------------------>
+
+		<section >
+
+			<div class="slide_show">
+
+				<div class="img_size_2 fade">
+  
+				  <img src="assets/img/belin2.jpg" class="p_img">
+				  <div class="text">Il Belinografo per trasmettere le fotografie a distanza – 1908.</div>
+				</div>
+
+				<div class="img_size_2 fade">
+				  
+				  <img src="assets/img/belin_copia.jpg" class="p_img">
+				  <div class="text">Edouard Belin, inventore del Belinograph.(Photo by adoc-photos/Corbis via Getty Images)</div>
+				</div>
+
+				<div class="img_size_2 fade">
+				  
+				  <img src="assets/img/belinog_2 copia.jpg" class="p_img">
+				  <div class="text">Belinograph-CnAM 18774, 
+					consrvato nel Conservatoire national des Arts et Métiers.</div>
+				</div>
+
+				<a class="prev" onclick="plusSlides_2(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides_2(1)">&#10095;</a>
+
+			</div>
+
+			<script>
+				var slideIndex_2 = 1;
+				showSlides_2(slideIndex_2);
+
+				function plusSlides_2(n) {
+				  showSlides_2(slideIndex_2 += n);
+				}
+
+				function currentSlide_2(n) {
+				  showSlides_2(slideIndex_2 = n);
+				}
+
+				function showSlides_2(n) {
+					var i_2;
+					var slides_2 = document.getElementsByClassName("img_size_2");
+					// var dots = document.getElementsByClassName("dot");
+					if (n > slides_2.length) {slideIndex_2 = 1}    
+					if (n < 1) {slideIndex_2 = slides_2.length}
+					for (i_2 = 0; i_2 < slides_2.length; i_2++) {
+					    slides_2[i_2].style.display = "none";  
+					}
+					// for (i_2 = 0; i_2 < dots.length; i_2++) {
+					//     dots[i].className = dots[i].className.replace(" active", "");
+					// }
+					slides_2[slideIndex_2-1].style.display = "block";  
+					// dots[slideIndex_2-1].className += " active";
+
+					console.log("run",slides_2)
+				}
+			</script>
+
+			<div class="colonna">
+
+
+				<div class="titolo"><h4>Storia</h4></div>
+
+				<div class="titolo"><h2>LO SVILUPPO</h2></div>
+
+				<div class="testo">
+					
+			
+					<div class="column" style="background-color:;">
+
+						<!-- <p>	 -->
+							Successivamente al Pantelegrafo venne introdotta la telefoto, o belinografia dall'italianizzazione del nome francese Bélinographe, è un'immagine fotografica ricevuta via linea telefonica (analogica) o telegrafica, costituì la base per il servizio Wirephoto. Il principio della telefotografia consiste nella trasformazione di segnali acustici in segnali luminosi che, emessi da una cellula fotoelettrica, impressionano la carta fotografica o una pellicola fotosensibile. Ideato dal francese Édouard Belin nel 1920, questo sistema di trasmissione delle immagini è stato in uso fino alla metà degli anni novanta del XX secolo presso tutte le agenzie di stampa e i principali quotidiani di informazione. I primi sistemi wirephoto erano lenti e non si riproducevano bene. Nel 1929 un ingegnere elettronico inventò un sistema che produceva una riproduzione migliore e poteva trasmettere una pagina intera in circa un minuto. Negli anni '30, le macchine wirephoto di qualsiasi velocità ragionevole erano molto grandi e costose e richiedevano una linea telefonica dedicata. Società di stampa hanno utilizzato costose linee telefoniche in affitto per trasmettere wirephotos. A metà degli anni '30 iniziò una battaglia tecnologica per apparecchiature wirephoto portatili meno costose che potevano trasmettere foto su linee telefoniche standard.
+						<!-- </p> -->
+
+					</div>		
+
+				</div>	
+				
+			</div>
+
+		</section>
+
+<!------------------------------>
+<!------------------------------>
+
+		<section>
+
+			<div class="slide_show">
+
+				<div class="img_size_3 fade">
+  
+				  <img src="assets/img/charls.jpg" class="p_img">
+				  <div class="text">Il ricercatore R.B. Thomas, del National Bureau of Standards (NBS), con il SEAC scanner usato per la prima scansione digitale nel 1957.</div>
+				</div>
+
+				<div class="img_size_3 fade">
+				  
+				  <img src="assets/img/primafoto.jpg" class="p_img">
+				  <div class="text">Walden Kirsch nella prima fotografia digitale acquisita tramite scanner nel 1957.</div>
+				</div>
+
+				<div class="img_size_3 fade">
+				  
+				  <img src="assets/img/russel_old.jpg" class="p_img">
+				  <div class="text">Russell Kirsch holds a photocopy of the computer output of the image.</div>
+				</div>
+
+				<a class="prev" onclick="plusSlides_3(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides_3(1)">&#10095;</a>
+
+			</div>
+
+			<script>
+				var slideIndex_3 = 1;
+				showSlides_3(slideIndex_3);
+
+				function plusSlides_3(n) {
+				  showSlides_3(slideIndex_3 += n);
+				}
+
+				function currentSlide_3(n) {
+				  showSlides_3(slideIndex_3 = n);
+				}
+
+				function showSlides_3(n) {
+					var i_3;
+					var slides_3 = document.getElementsByClassName("img_size_3");
+					// var dots = document.getElementsByClassName("dot");
+					if (n > slides_3.length) {slideIndex_3 = 1}    
+					if (n < 1) {slideIndex_3 = slides_3.length}
+					for (i_3 = 0; i_3 < slides_3.length; i_3++) {
+					    slides_3[i_3].style.display = "none";  
+					}
+					// for (i_2 = 0; i_2 < dots.length; i_2++) {
+					//     dots[i].className = dots[i].className.replace(" active", "");
+					// }
+					slides_3[slideIndex_3-1].style.display = "block";  
+					// dots[slideIndex_2-1].className += " active";
+
+					console.log("run",slides_3)
+				}
+			</script>
+
+			
+
+			<div class="colonna">
+
+
+				<div class="titolo"><h4>Storia</h4></div>
+
+				<div class="titolo"><h2>LE PRIME IMMAGINI</h2></div>
+
+				<div class="testo">
+					
+			
+					<div class="column" style="background-color:;">
+
+						<!-- <p>	 -->
+							Intorno agli anni 50’ con l’avvenimento dei primi computer si intraprese lo studio di sistemi per digitalizzare le immagini rendendole visualizzabili a schermo. Nel 1957 Russell Kirsch, un ingegnere informatico statunitense, era una delle poche persone negli Stati Uniti a poter lavorare con l’unico computer programmabile esistente, e in primavera fu il primo a digitalizzare una fotografia con uno scanner: prese una foto di sé stesso mentre reggeva in braccio suo figlio di tre mesi, Walden, e la ritagliò in modo da tenere soltanto il volto del figlio. Kirsch sviluppò uno scanner di immagini digitali , per "rintracciare variazioni di intensità sulla superficie delle fotografie" e realizzò le prime scansioni digitali. La profondità in bit era solo di un bit per pixel, in bianco e nero netto senza sfumature intermedie di grigio, ma combinando diverse scansioni eseguite utilizzando soglie di scansione diverse, è stato possibile acquisire anche informazioni in scala di grigio. Lo scanner a tamburo scomponeva idealmente l’immagine in piccoli quadrati e trasmetteva e traduceva in forma binaria – 1 o 0 – l’informazione contenuta in ciascuno di quei piccoli quadrati (pixel). L’immagine digitale di Walden Kirsch aveva una dimensione di 176 pixel per lato. La dimensione della fotografia acquisita era di cinque centimetri per cinque.  quella immagine in bianco e nero, che – per l’importanza che poi ebbe negli sviluppi della fotografia digitale – nel 2003 fu anche inserita dal magazine Life nella lista delle “100 fotografie che hanno cambiato il mondo”.
+
+					</div>		
+
+				</div>	
+				
+			</div>
+
+		</section>
+
+<!------------------------------>
+<!------------------------------>
+
+		<section id=news>
+
+						<div class="slide_show">
+
+				<div class="img_size_4 fade">
+  
+				  <img src="assets/img/manoscan.jpg" class="p_img">
+				  <div class="text">Lo Scanner Lucida in funzione (Crediti: Galleria Tretyakov).</div>
+				</div>
+
+				<div class="img_size_4 fade">
+				  
+				  <img src="assets/img/3dscan.jpg" class="p_img">
+				  <div class="text">3D photographic scanning system.</div>
+				</div>
+
+				<div class="img_size_4 fade">
+				  
+				  <img src="assets/img/dipinto_scan.jpg" class="p_img">
+				  <div class="text">The Lucida 3D Laser Scanner digitising Skaters on the IJssel near Kampen by Barend Avercamp at the Rijksmuseum Twenthe © Rijksmuseum Twenthe.</div>
+				</div>
+
+				<a class="prev" onclick="plusSlides_4(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides_4(1)">&#10095;</a>
+
+			</div>
+
+			<script>
+				var slideIndex_4 = 1;
+				showSlides_4(slideIndex_4);
+
+				function plusSlides_4(n) {
+				  showSlides_4(slideIndex_4 += n);
+				}
+
+				function currentSlide_4(n) {
+				  showSlides_4(slideIndex_4 = n);
+				}
+
+				function showSlides_4(n) {
+					var i_4;
+					var slides_4 = document.getElementsByClassName("img_size_4");
+					// var dots = document.getElementsByClassName("dot");
+					if (n > slides_4.length) {slideIndex_4 = 1}    
+					if (n < 1) {slideIndex_4 = slides_4.length}
+					for (i_4 = 0; i_4 < slides_4.length; i_4++) {
+					    slides_4[i_4].style.display = "none";  
+					}
+					// for (i_2 = 0; i_2 < dots.length; i_2++) {
+					//     dots[i].className = dots[i].className.replace(" active", "");
+					// }
+					slides_4[slideIndex_4-1].style.display = "block";  
+					// dots[slideIndex_2-1].className += " active";
+
+					console.log("run",slides_4)
+				}
+			</script>
+
+			<div class="colonna">
+
+
+				<div class="titolo"><h4>Nuovi utilizzi</h4></div>
+
+				<div class="titolo"><h2>PER  L’ARTE</h2></div>
+
+				<div class="testo">
+					
+			
+					<div class="column" style="background-color:;">
+
+						<!-- <p>	 -->
+							Il continuo progresso in campo fotografico e tecnologico permise agli scanner di raggiungere livelli di acquisizione di immagini non indifferenti. Con l’avvento della prima immagine digitalizzata gli ingeneri approfondirono gli studi compiuti da Russell Kirsch, incrementando velocità di riproduzione, dimensioni della superficie scansionabile e qualità di uscita delle immagini. Cominciò così la “digitalizzazione" di documenti, fotografie, libri e opere, facilitando l’accesso alle risorse ma anche permettendo di eternizzare tutto ciò che è soggetto a usura e decomposizione nel tempo. L’utilizzo di avanzate tecnologie di acquisizione di immagine nel campo dell’arte ha reso possibile intraprendere studi più approfonditi sula natura delle opere d’arte; oggi abbiamo raggiunto livelli di fedeltà dell’immagine che rendono possibile produrre la copia quasi indistinguibile di un dipinto. Ne è un esempio l’attività di Adam Lowe la quale missione è salvare capolavori d'arte antica che rischiano di andare perduti per sempre, registrandoli digitalmente e creando dei facsimile indistinguibili dalle opere originali. È l’unico al mondo in grado di raggiungere un tale livello di perfezione e, per riuscirci, Lowe utilizza gli scanner, un mezzo unico, che permette uno studio della materia e una indagine dell’opera che sarebbero difficilmente raggiungibili diversamente. Lowe è riuscito a ricostruire le Ninfee di Monet, andato distrutto in un incendio al MoMa di New York nel 1958, proprio grazie alla scansione dei resti carbonizzati che gli hanno permesso di ottenere informazioni preziosissime sulla superficie, sulle pennellate e sui colori usati da Monet”. Per svolgere determinati lavori vengono creati scanner dedicati, addirittura in grado di scansionare esclusivamente la superficie di un quadro senza curarsi dei colori e restituire dati di una qualità e di una definizione impressionanti. “I software diventano sempre più potenti, il che dimostra che la registrazione digitale delle opere in altissima definizione sta diventando importante e ci permetterà di cambiare la storia dell’arte.”- afferma Lowe.
+						<!-- </p> -->
+
+					</div>		
+
+				</div>	
+				
+			</div>
+
+		</section>
+
+<!------------------------------>
+
+		<section>
+
+			<div class="slide_show">
+
+				<div class="img_size_5 fade">
+  
+				  <img src="assets/img/MUNA_2.jpg" class="p_img">
+				  <div class="text">B. Munari, Autoritratto, Xerografia.</div>
+				</div>
+
+				<div class="img_size_5 fade">
+  
+				  <img src="assets/img/strip.jpg" class="p_img">
+				  <div class="text">Bruno Munari, Xerografia Originale, 1967.</div>
+				</div>
+
+				<div class="img_size_5 fade">
+  
+				  <img src="assets/img/ritratto_01.jpg" class="p_img">
+				  <div class="text">liz atkin scanography photographers. Interface Anti Self Portrait Series 2007-8.</div>
+				</div>
+
+				<div class="img_size_5 fade">
+				  
+				  <img src="assets/img/verdure.jpg" class="p_img">
+				  <div class="text">-Sunflower and tomatoes-Edibles, - Scanography By Ellen Hoverkamp.</div>
+				</div>
+
+				<div class="img_size_5 fade">
+				  
+				  <img src="assets/img/liquid copia.jpg" class="p_img">
+				  <div class="text">Rebecca Wild, Sea Swallow 2015.</div>
+				</div>
+
+				<a class="prev" onclick="plusSlides_5(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides_5(1)">&#10095;</a>
+
+			</div>
+
+			<script>
+				var slideIndex_5 = 1;
+				showSlides_5(slideIndex_5);
+
+				function plusSlides_5(n) {
+				  showSlides_5(slideIndex_5 += n);
+				}
+
+				function currentSlide_5(n) {
+				  showSlides_5(slideIndex_5 = n);
+				}
+
+				function showSlides_5(n) {
+					var i_5;
+					var slides_5 = document.getElementsByClassName("img_size_5");
+					// var dots = document.getElementsByClassName("dot");
+					if (n > slides_5.length) {slideIndex_5 = 1}    
+					if (n < 1) {slideIndex_5 = slides_5.length}
+					for (i_5 = 0; i_5 < slides_5.length; i_5++) {
+					    slides_5[i_5].style.display = "none";  
+					}
+					// for (i_2 = 0; i_2 < dots.length; i_2++) {
+					//     dots[i].className = dots[i].className.replace(" active", "");
+					// }
+					slides_5[slideIndex_5-1].style.display = "block";  
+					// dots[slideIndex_2-1].className += " active";
+
+					console.log("run",slides_5)
+				}
+			</script>
+
+			<div class="colonna_last">
+
+
+				<div class="titolo"><h4>Nuovi utilizzi</h4></div>
+
+				<div class="titolo"><h2>COME ARTE</h2></div>
+
+				<div class="testo">
+					
+			
+					<div class="column" style="background-color:;">
+
+						<!-- <p>	 -->
+							La nascita di questo incredibile strumento, è stato per alcuni niente meno che un nuovo mezzo di espressione artistica; infatti c’è chi del processo di acquisizione delle immagini, analogo a quello della macchina fotografica, è riuscito a deviare l’impiego in una chiave artistica. Munari è uno dei primi ad utilizzare per scopi creativi le macchine fotocopiatrici Xerox a partire dagli anni ’50. In Maniera più dettagliata se ne parla in un volume fuori commercio edito dalla Ranx Xerox con il titolo "Bruno Munari Xerografia. L’idea di Munari è semplice e consiste nel mettere in movimento delle immagini, dei pattern o delle texture durante il tempo della scansione. Si ottengono così immagini deformate dal movimento, rese uniche da un atto creativo e non ripetibile. Le xerografie ottenute sono pertanto originali e, grazie a sperimentazioni di materiali e di tecniche, l'autore è in grado di creare in pochi secondi delle opere d’arte, disegnando per superfici invece che per linee. Per fare una buona fotocopia bisogna tenere ferma l’immagine durante il processo di lettura. Munari si chiede: "Cosa succede se io muovo questo originale sulla lastra di vetro?”. Crea così una immagine nuova, dinamica, distorta, il cui unico scopo è quello della comunicazione con finalità estetiche. Oggi questa forma d’arte viene chiamata Scanography o Scanner Photography, un processo molto vicino a quello che compieva Munari ma con la possibilità di porre sul piano anche oggetti tridimensionali. Infatti gli artisti attuali creano composizioni combinando superfici piane con oggetti voluminosi e alle volte utilizzano volti di persone piuttosto che altre parti del corpo. Tra gli artisti di questo genere c’è chi crea composizioni con elementi della natura, animali, ritratti, illustrazioni, oggetti di ogni tipo e texture. Naturalmente la differenza con le opere ai tempi di Munari in termini di qualità è molta, in quanto la tecnologia ha raggiunto livelli altissimi offrendo la possibilità di creare immagini a 12000ppi di risoluzione.
+
+						<!-- </p> -->
+
+					</div>	
+
+				</div>	
+				
+			</div>
+
+		</section>
+
+		<section>
+			
+				<p class="p_2">Atlante Tecnologico</p>
+					<p class="p_1">Lo Scanner</p>
+
+				<p class="sito">Sitografia</p>
+
+				<div id="sitiutilizzati">
+
+				<p class="N2">
+	  				<a target="blank" href="https://www.factumfoundation.org/pag/1418/four-paintings-from-the-dutch-golden-age-in-the-rijksmuseum-twenthe">Factum Foundation</a><br>
+	  				<a href="https://www.ilpost.it/2014/11/02/prima-immagine-digitale/">La storia della prima immagine digitale</a><br>
+	 				<a href="http://www.munart.org/index.php?p=20">The most complete web site dedicated to Bruno Munari</a><br>
+	 				<a href="https://it.wikipedia.org/wiki/Pantelegrafo">Pantelegrafo</a><br>
+	 				<a href="http://www.lombardiabeniculturali.it/scienza-tecnologia/schede/ST010-00216/">Replica di pantelegrafo di Caselli, Caselli Giovanni</a><br>
+	 				<a href="https://www.wired.it/play/cultura/2018/04/24/adam-lowe-opere-arte-copie/">Nel mondo dell’arte Adam Lowe</a><br>
+	 				
+				</p>
+					
+				</div>
+				
+		
+
+				<div class="colophon">
+
+					<p>Tesi Luca<br>SUPSI, A.A. 2019-2020<br>Corso di Interaction Design,<br>Docenti: Andreas Gysin, Giovanni Profeta</p>
+					
+				</div>
+
+			
+		</section>
+			
+	
+
+		
+
+		<!-- --------------------------------------------------------------------- -->
+
+
+		
+	</div>
+
+
+</body>
+</html>
