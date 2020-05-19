@@ -275,12 +275,7 @@ div.img_size{
 	overflow: hidden;
 }
 
-div.img_size_2{
-	width: 35%;
-	height: 100vh;
-	display: block;
-	overflow: hidden;
-}
+
 
 .prev, .next {
   cursor: pointer;
@@ -351,50 +346,50 @@ div.img_size_2{
 /*---------------*/
 
 .colophon{
-	width: 650px;
-	padding-left: 100px;
-	margin-top: 300px;
-	position: relative;
+	width: 450px;
+	padding-left: 50px;
+	margin-top: 250px;
+	
 
 }
 .p_1{
 	font-size: 19pt;
-	margin-top: 175px;
-	position: absolute;
+	margin-top: 25px;
+	
 	width: 350px;
-	padding-left: 100px;
+	padding-left: 50px;
 }
 .p_2{
 	font-size: 29pt;
 	margin-top: 100px;
 	font-family: "Avenir Next Bold";
-	position: absolute;
-	width: 650px;
-	padding-left: 100px;
+	
+	width: 550px;
+	padding-left: 50px;
 }
 h2{
 	font-size: 24pt;
 }
 
 .sito{
-	margin-top: 300px;
-	position: absolute;
+	margin-top: 85px;
+	
 	font-size: 12pt;
-	padding-left: 100px;
+	padding-left: 50px;
 }
 #sitiutilizzati{
 
 }
 .N2{
-	margin-top: 340px;
-	left: 100px;
-	position: relative;
+	margin-top: 25px;
+	padding-left: 50px;
+	
 	color: white;
 	
 }
 .li2{
 	float: unset;
-	width: 600px;
+	
 	line-height: 1.6em;
 }
 
@@ -402,6 +397,13 @@ a{
   color: white;
 }
 
+.colonna_colophon {
+	width: 600px;
+
+	overflow-x: hidden;
+
+	
+}
 
 
 /*------titolo testo immagini sezioni---------*/
@@ -521,7 +523,7 @@ and (max-width: 1200px){
 }
 
 .colonna_last{
-	width: 100px;
+	width: 1080px;
 	padding: 0;
 	overflow-x: hidden;
 	
@@ -563,13 +565,31 @@ div.img_size{
 	display: block;
 	overflow: hidden;
 }
-
-div.img_3{
-	width: 80%;
+div.img_size_3{
+	width: 40%;
 	height: 100vh;
 	display: block;
 	overflow: hidden;
 }
+div.img_size_4{
+	width: 40%;
+	height: 100vh;
+	display: block;
+	overflow: hidden;
+}
+div.img_size_5{
+	width: 40%;
+	height: 100vh;
+	display: block;
+	overflow: hidden;
+}
+
+/*div.img_3{
+	width: 80%;
+	height: 100vh;
+	display: block;
+	overflow: hidden;
+}*/
 
 .prev, .next {
   cursor: pointer;
@@ -602,6 +622,10 @@ div.testo{
 
 }
 
-
+.colonna_colophon {
+	width: 600px;
+	padding: 0;
+	overflow-x: hidden;	
+}
 
 }
