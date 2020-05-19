@@ -11,13 +11,13 @@ body {
 }
 
 p {
-	margin: 1 0 1em 0;
+	margin: 0 0 1em 0;
 	font-family: sans-serif;
 
 }
 
 h4 {
-	margin:20;
+	margin:0;
 }
 
 section {
@@ -26,7 +26,7 @@ section {
 	clear: both;
 	float: left;
 	margin-bottom: 3em;
-	padding-top: 2em;
+	padding-top: 3em;
 	border-top: solid 2px black;
 }
 
