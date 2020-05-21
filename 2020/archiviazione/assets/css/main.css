@@ -34,11 +34,29 @@ img {
 	width: 100%;
 }
 
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.h2-Salvataggio {
+	margin-bottom: 0;
+}
+
+.indietro {
+	font-family: sans-serif;
+	display: block;
+
+}
 
 .header {
 	font-family: sans-serif;
-
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	margin-bottom: 2em;
 }
+
 .titolo-sezione {
 	float: left;
 	width: 10em;
