@@ -116,8 +116,13 @@ h1 {
 	position: relative;
 }
 
+.titolo_immagine{
+	margin: 35px;
+}
+
 .sottotitolo{
 	font-size: 25px;
+	margin-top: -30px;
 }
 
 h2 {
