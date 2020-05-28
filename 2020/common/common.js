@@ -84,7 +84,7 @@ function run() {
     // --- Canvas --------------------------------------------------------------
 
     const canvas = document.createElement("canvas")
-    canvas.styke.display = 'block'
+    canvas.style.display = 'block'
     mini_audio.appendChild(canvas)
 
     const ctx = canvas.getContext('2d')
