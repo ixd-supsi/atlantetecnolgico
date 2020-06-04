@@ -179,10 +179,13 @@ div.logo{
 
 
 div.img_size_2{
-	width: 35%;
+	width: 550px;
 	height: 100vh;
 	display: block;
 	overflow: hidden;
+	overflow-y: hidden;
+	
+
 }
 
 div.img_size_3{
@@ -204,6 +207,12 @@ div.img_size_5{
 	overflow: hidden;
 }
 
+.p_img{
+	width: 100%;
+	display: block;
+	overflow-y: hidden;
+
+}
 
 /*----slideshow_-------
 
@@ -337,9 +346,7 @@ div.img_size{
   to {opacity: 1}
 }
 
-.p_img{
-	height: 100%;
-}
+
 
 
 
