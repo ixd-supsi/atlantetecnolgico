@@ -393,9 +393,6 @@ a{
 	padding: 2%;
 }
 
-.mini{
-	font-size: 87%;
-}
 
 
 
@@ -451,41 +448,17 @@ a{
 
 
 
-.pecu_intro{
+.info_tec{
 	margin-left: 30%;
 	margin-right: 30%;
+	margin-bottom: 5%;
+}
+
+
+.mini{
+	font-size: 87%;
 	margin-bottom: 10%;
 }
-
-
-
-.contuno{
-	display: flex;
-	justify-content: space-between;
-	padding-bottom: 3%;
-	padding-left: 22%;
-	padding-right: 22%;
-}
-
-.contuno div{
-	width: 43%;
-}
-
-.contdue{
-	display: flex;
-	justify-content: space-between;
-	padding-bottom: 5%;
-	padding-left: 22%;
-	padding-right: 22%;
-}
-
-.contdue div{
-	width: 43%;
-}
-
-
-
-
 
 
 
