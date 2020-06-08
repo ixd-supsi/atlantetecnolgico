@@ -211,7 +211,7 @@ a{
 .testo_intro {
 	margin-left: 30%;
 	margin-right: 30%;
-	margin-bottom: 15%;
+	margin-bottom: 13%;
 	margin-top: 10%;
 	font-size: 85%;
 }
@@ -254,7 +254,7 @@ a{
 .sesto_periodo{
 	margin-left:30%;
 	margin-right:30%;
-	padding-bottom:2%;
+	padding-bottom:13%;
 }
 
 .settimo_testo{
@@ -461,6 +461,19 @@ a{
 }
 
 
+.colophon{
+
+}
+
+
+
+
+
+.col_due{
+	display: flex;
+	justify-content: space-between;
+}
+
 
 .tit_siti{
 	padding-top: 5%;
@@ -477,16 +490,11 @@ a{
 }
 
 
-.rettangolo{
-	height: 200px;
-	width:100vw;
-	background-color: #1d1d1d;
-}
 
-.colophon{
+
+.corso{
 	position: absolute;
 	bottom: 40px;
-	left: 50px;
 	font-size: 10px;
 	line-height: -1;
 }
