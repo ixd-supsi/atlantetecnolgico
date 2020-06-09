@@ -14,7 +14,7 @@ p {font-size: 15px; color: #F5F5F5;}
 
 .paragrafi-destra {padding-bottom: 2%; padding-left: 55%;}
 
-#didascalie {font-style: italic; font-size: 13px; margin-top: 1%;}
+#didascalie {font-style: italic; font-size: 12px; margin-top: 1%;}
 
 #indietro {padding-top: 60px; position: absolute;}
 
@@ -150,6 +150,11 @@ img.qledpixel {width: 32%; height: auto; padding-left: 1%;
               border-radius: 180px;}
 
 
+
+img.freccianera {width: 20px; height: auto;}
+
+img.frecciabianca {width: 20px; height: auto;}
+
 /* responsive immagini */
 
 .responsive {
@@ -163,12 +168,13 @@ img.qledpixel {width: 32%; height: auto; padding-left: 1%;
 
 nav {
   width: 100%;
-  height: 50px;
+  height: 40px;
   background: rgba(0, 0, 0, .7);
   position: sticky;
   top: 0px;
   margin-bottom: 5%;
   margin-top: 5%;
+  font-size: 12px;
 }
 
 nav ul {
@@ -186,10 +192,10 @@ nav ul li {
 nav ul li a {
   display: block;
   color: #ffffff;
-  padding: 0 15px;
+  padding: 0 13px;
   text-decoration: none;
-  text-transform: uppercase;
-  line-height: 50px;
+  /*text-transform: uppercase;*/
+  line-height: 40px;
   transition: background-color .5s;
 }
 
@@ -227,7 +233,7 @@ nav ul li a.active {
 
 .alignfull_mobile a {
   float: left;
-  font-size: 15px;
+  font-size: 12px;
   color: white;
   text-align: left;
   text-decoration: none;
@@ -403,7 +409,7 @@ nav ul li a.active {
 
   .column a {
     color: #F5F5F5;;
-    font-size: 13px;
+    font-size: 12px;
   }
 
 
