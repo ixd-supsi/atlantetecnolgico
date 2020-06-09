@@ -94,7 +94,7 @@ nav ul li a{
 	padding-left: 15px;
 	padding-right: 15px;
 	text-transform:uppercase;
-	color: rgba(241, 241, 241, 0.7);
+	color: rgba(241, 241, 241, 0.8);
 	font-size: 20px;
 	text-decoration: none;
 	display: block;
@@ -211,13 +211,10 @@ a{
 .testo_intro {
 	margin-left: 30%;
 	margin-right: 30%;
-	margin-bottom: 15%;
+	margin-bottom: 13%;
 	margin-top: 10%;
 	font-size: 85%;
 }
-
-
-
 
 
 
@@ -254,7 +251,7 @@ a{
 .sesto_periodo{
 	margin-left:30%;
 	margin-right:30%;
-	padding-bottom:2%;
+	padding-bottom:13%;
 }
 
 .settimo_testo{
@@ -291,7 +288,6 @@ a{
 .immaginona{
 	text-align: center;
 	margin-bottom: 5%;
-
 }
 
 .DT{
@@ -300,6 +296,10 @@ a{
 
 .koss {
 	width:18%;
+}
+
+.koss_adv{
+	text-align: center;
 }
 
 .Sennheiser{
@@ -390,9 +390,6 @@ a{
 	padding: 2%;
 }
 
-.mini{
-	font-size: 87%;
-}
 
 
 
@@ -448,42 +445,31 @@ a{
 
 
 
-.pecu_intro{
+.info_tec{
 	margin-left: 30%;
 	margin-right: 30%;
+	margin-bottom: 5%;
+}
+
+
+.mini{
+	font-size: 87%;
 	margin-bottom: 10%;
 }
 
 
+.colophon{
 
-.contuno{
+}
+
+
+
+
+
+.col_due{
 	display: flex;
 	justify-content: space-between;
-	padding-bottom: 3%;
-	padding-left: 22%;
-	padding-right: 22%;
 }
-
-.contuno div{
-	width: 43%;
-}
-
-.contdue{
-	display: flex;
-	justify-content: space-between;
-	padding-bottom: 5%;
-	padding-left: 22%;
-	padding-right: 22%;
-}
-
-.contdue div{
-	width: 43%;
-}
-
-
-
-
-
 
 
 .tit_siti{
@@ -501,16 +487,11 @@ a{
 }
 
 
-.rettangolo{
-	height: 200px;
-	width:100vw;
-	background-color: #1d1d1d;
-}
 
-.colophon{
+
+.corso{
 	position: absolute;
 	bottom: 40px;
-	left: 50px;
 	font-size: 10px;
 	line-height: -1;
 }
@@ -526,6 +507,7 @@ a{
 	margin-bottom: 0px;
 	letter-spacing: 0.7px;
 }
+
 
 
 
