@@ -9,10 +9,7 @@ body {
 
 }
 
-header{
-	height: 800px;
 
-}
 
 .indietro{
 	width: 70px;
@@ -95,7 +92,6 @@ img{
 
 	font-size: 30px;
 	font-weight: bolder;
-	width: 400px;
 	padding-top: 20px;
 	border-top: dashed lightgrey 1px;
 }
@@ -104,7 +100,6 @@ img{
 .didascalie{
 
 	font-size: 15px;
-	width: 300px;
 	padding-top: 20px;
 }
 
@@ -128,25 +123,47 @@ border-bottom: solid lightgrey 1px;
 
 
 
-.intro_colonna1 {
+
+.testodestraintro {
 font-size: 18px;
-line-height: 125%;
-height: 174px;
-float: left;
-padding-left: 595px;
 padding-top: 40px;
-border-bottom: solid lightgrey 1px;
-
-
+line-height: 125%;
+width: 52.5%;
+float: right;
+padding-bottom: 40px;
 }
 
 .colonnaunicastoria{
-	height: 560px;
-	border-bottom: solid lightgrey 1px;
+	border-top: solid lightgrey 1px;
+	padding-bottom: 500px;
 
 }
 
 
+@media screen and (max-width: 1186px) {
+
+.testodestraintro {
+	width: auto;
+	padding-left: 0;
+	float: none;
+
+}
+
+
+.colonna1{
+	padding-bottom: 40px;
+	padding-right: 0;
+	width: block;
+	float: none;
+}
+
+.colonna2{
+	
+	float: none;
+}
+
+
+}
 
 
 
@@ -183,11 +200,6 @@ border-bottom: solid lightgrey 1px;
 
 
 
-iframe{
-height: 320px;
-width: 600px;
-
-}
 
 .titolo_modelli{ 
 	font-size: 280%;
@@ -202,6 +214,8 @@ width: 600px;
 
 .colonnaunicamodelli{
 	height: 870px;
+	border-top: solid lightgrey 1px;
+
 }
 
 
@@ -225,7 +239,6 @@ width: 600px;
 }
 
 .colonna_funzionamento{
-	height: 300px;
 	border-top: solid lightgrey 1px;
 }
 
@@ -236,13 +249,15 @@ width: 35%;
 line-height: 125%;
 font-size: 16px;
 float: left;
-margin-right: 150px;
+margin-right: 160px;
 
 }
 
 .colonna2 {
 width: 50%;
 float: left;
+padding-bottom: 100px;
+
 }
 
 .colonna2moduli {
@@ -305,7 +320,7 @@ float: left;
 
 .puntatori {
 	height: 60px;
-	width: 700px;
+	width: 100%;
 	padding-top: 15px;
 	font-size: 40px;
 	border-bottom: dashed 1px lightgrey;
@@ -364,7 +379,7 @@ cursor: default;
 /* fine puntatori */
 
 footer{
-	width: 1300px;
+	width: 100%;
 	height: 300px;
 	position: absolute;
 }
