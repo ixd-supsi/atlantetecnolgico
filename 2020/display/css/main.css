@@ -88,6 +88,11 @@ img.Pixel_LED {width: 32%; height: auto; padding-left: 1%;
 img.primoplasma {width: 32%; height: auto;}
 img.lampada {width: 60%; height: auto;}
 
+img.Plasma_matrix {width: 32%; height: auto; padding-left: 1%;
+              -moz-border-radius: 180px;
+              -webkit-border-radius: 180px;
+              border-radius: 180px;}
+
 img.liquid {width: 100%; height: auto; margin-top: 5%;}
 
 img.Heilmeier {width: 46.5%; height: auto;}
