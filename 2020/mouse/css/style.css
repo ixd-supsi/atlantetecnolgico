@@ -142,25 +142,25 @@ padding-bottom: 40px;
 
 @media screen and (max-width: 1186px) {
 
-.testodestraintro {
+	.testodestraintro {
 	width: auto;
 	padding-left: 0;
 	float: none;
 
-}
+	}
 
 
-.colonna1{
+	.colonna1{
 	padding-bottom: 40px;
 	padding-right: 0;
 	width: block;
 	float: none;
-}
+	}
 
-.colonna2{
+	.colonna2{
 	
 	float: none;
-}
+	}
 
 
 }
@@ -275,10 +275,10 @@ float: left;
 
 .domandasezionesito{
 	font-size: 16px;
+	width: auto;
 	line-height: 140%;
 	padding-top: 20px;
 	height: 60px;
-	width: 700px;
 	border-bottom: dashed lightgrey 1px;
 	font-weight: medium;
 }
@@ -320,7 +320,7 @@ float: left;
 
 .puntatori {
 	height: 60px;
-	width: 100%;
+	width:auto;
 	padding-top: 15px;
 	font-size: 40px;
 	border-bottom: dashed 1px lightgrey;
