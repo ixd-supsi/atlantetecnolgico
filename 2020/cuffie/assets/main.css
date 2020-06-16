@@ -276,6 +276,18 @@ a{
 
 
 
+#periods{
+	float: left; 
+	font-size: 27px; 
+	background: #f9f9f9;
+	padding:4px;
+	color:black; 
+	margin-right: 30px;
+}
+
+
+
+
 
 .ernest {
 	width: 18%;
@@ -458,56 +470,56 @@ a{
 }
 
 
+
+
+
+
+
 .colophon{
-
-}
-
-
-
-
-
-.col_due{
 	display: flex;
 	justify-content: space-between;
-}
-
-
-.tit_siti{
+	margin-right: 14%;
 	padding-top: 5%;
+
 }
+
+
+.colophon div{
+	width: 30%;
+}
+
 
 .siti{
 	margin-bottom: 5%;
 	margin-top: -20px;
+	margin-left: -23px;
 	line-height: 1.8;
 }
 
-.contenitore_box{
-	position: relative;
+
+.col_uno{
+	margin-right: 26.5%;
 }
 
-
-
-
-.corso{
-	position: absolute;
-	bottom: 40px;
-	font-size: 10px;
-	line-height: -1;
-}
 
 .tit_col{
-	font-size: 15px;
+	font-size: 12px;
 	margin-bottom: 0px;
 	letter-spacing: 1px;
 }
 
+
 .tito_col{
-	font-size: 11px;
+	font-size: 10px;
 	margin-bottom: 0px;
 	letter-spacing: 0.7px;
 }
 
 
-
+.corso{
+	bottom: 40px;
+	font-size: 10px;
+	line-height: -1;
+	margin-right: -26.5%;
+}
 
