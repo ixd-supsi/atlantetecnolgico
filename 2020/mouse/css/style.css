@@ -60,6 +60,8 @@ img{
 	z-index: -1;
 	display: block;
 	position: absolute;
+	width: auto;
+	height: auto;
 }
 
     .swiper-container {
@@ -279,6 +281,7 @@ float: left;
 	line-height: 140%;
 	padding-top: 20px;
 	height: 60px;
+	width: 85%;
 	border-bottom: dashed lightgrey 1px;
 	font-weight: medium;
 }
@@ -323,6 +326,7 @@ float: left;
 	width:auto;
 	padding-top: 15px;
 	font-size: 40px;
+	width: 85%;
 	border-bottom: dashed 1px lightgrey;
 }
 
