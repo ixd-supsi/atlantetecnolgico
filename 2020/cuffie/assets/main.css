@@ -1,7 +1,7 @@
 *, *:before, *:after{
 	box-sizing: border-box;}
 
-@media only screen and (min-width: 900px) and (max-width: 1300px)
+@media only screen and (min-width: 800px) and (max-width: 1300px)
 	{
 
 		.testo_intro{
@@ -38,7 +38,7 @@
 
 		.sesto_periodo{
 			float: left;
-			margin: -270px 0px 0px 0px;
+			margin: -280px 0px 0px 0px;
 		}
 		.settimo_periodo{
 			float: left;
@@ -50,18 +50,20 @@
 			margin: -270px 0px 0px 0px;
 		}
 
-
-
 		.immaginona{
-			float:left;
-			align-items: center;
+			float: left;
 		}
+
+
 		
 		.ernest{
-			margin: 0px 0px 0px 0px;
+			margin: -6px 40px 0px 0px;
 			float: left;
 		}
 	}
+
+
+
 
 body{
 	background-color: black;
@@ -423,7 +425,6 @@ a{
 
 .immaginona{
 	text-align: center;
-	margin-bottom: 5%;
 }
 
 .DT{
@@ -615,14 +616,14 @@ a{
 
 .siti{
 	margin-bottom: 5%;
-	margin-top: -20px;
 	margin-left: -23px;
 	line-height: 1.8;
+	font-size: 12px;
 }
 
 
 .col_uno{
-	margin-right: 23%;
+	margin-right: 30%;
 }
 
 
@@ -644,6 +645,5 @@ a{
 	bottom: 40px;
 	font-size: 10px;
 	line-height: -1;
-	margin-right: -23%;
 }
 
