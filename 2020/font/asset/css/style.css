@@ -232,7 +232,11 @@ ul {
 
 @media only screen
 and (max-width: 1180px) {
-	
+
+	ul {
+		font-size: 25px;
+	}
+
 	.titolo-capitolo {
 		font-size: 135px;
 		letter-spacing: -5px;
@@ -243,14 +247,14 @@ and (max-width: 1180px) {
 
 @media only screen
 and (max-width: 895px) {
-	
+
 	.titolo-capitolo {
 		font-size: 100px;
 		letter-spacing: -4px;
 	}
 
 	ul {
-		font-size: 25px;
+		font-size: 20px;
 	}
 
 	.testo-etimologia {
@@ -269,7 +273,7 @@ and (max-width: 740px) {
 	}
 
 	ul {
-		font-size: 20px;
+		font-size: 18px;
 	}
 
 	.testo-etimologia {
@@ -281,14 +285,14 @@ and (max-width: 740px) {
 
 @media only screen
 and (max-width: 660px) {
-	
+
 	.titolo-capitolo {
 		font-size: 70px;
 		letter-spacing: -2px;
 	}
 
 	ul {
-		font-size: 15px;
+		font-size: 13px;
 	}
 
 	.navbar-top {
@@ -344,6 +348,10 @@ and (max-width: 660px) {
 
 @media only screen
 and (max-width: 470px) {
+
+	body{
+		background-color: pink;
+	}
 	
 	.titolo-capitolo {
 		font-size: 50px;
@@ -411,7 +419,7 @@ and (max-width: 470px) {
 
 @media only screen
 and (max-width: 320px) {
-	
+
 	.titolo-capitolo {
 		font-size: 50px;
 		letter-spacing: -2px;
