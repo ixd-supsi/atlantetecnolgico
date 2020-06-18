@@ -105,17 +105,10 @@ li a {
 .copertina {
 	width:100vw;
 	height: 100vh;
-	
+	display: block;
 }
 
-.copertina h2 {
-	position: absolute;
-	top: 46vh;
-	left: 15%;
-	font-size: 36pt;
-	font-family: "Avenir Black";
-	letter-spacing: 0.0em;
-}
+
 
 .colonna_intro{
 	position: absolute;
@@ -173,7 +166,10 @@ div.logo{
 
 /*---------------*/
 
-
+.slide_show{
+	height: auto;
+	width: 100%;
+}
 
 div.img_size_2{
 	width: 545px;
@@ -205,6 +201,7 @@ div.img_size_5{
 
 .p_img{
 	width: 100%;
+	height: auto;
 	display: block;
 	
 
@@ -413,8 +410,10 @@ a{
 
 .colonna {
 	width: 1750px;
+	
 	padding: 0;
 	overflow-x: hidden;
+
 
 	
 }
@@ -449,6 +448,7 @@ div.testo{
   padding-top: 10px;
   padding-right: 50px;
   column-gap: 45px;
+  position: absolute;
 
   
   
@@ -508,12 +508,11 @@ and (max-width: 1200px){
 	width: 350px;
 }
 
-.copertina {
+.copertina{
 	width: 100vw;
-	height: 100vh;
-
-	
 }
+
+
 
 .scanner {
 	height: 90px;
@@ -559,7 +558,7 @@ and (max-width: 1200px){
 
 div.img_size_2{
 	width: 40%;
-	height: 100%;
+	height: 100vh;
 	display: block;
 	overflow: hidden;
 	overflow-y: hidden;
@@ -578,10 +577,11 @@ div.img_size_2{
 }*/
 
 .p_img{
-	width: 550px;
+	width: auto;
+	
 	display: block;
 	
-	margin-left: -50px;
+	margin-left: -100px;
 
 }
 
@@ -589,28 +589,29 @@ div.img_size_2{
 
 div.img_size{
 	width: 40%;
-	height: 100%;
+	height: 100vh;
 	display: block;
 	overflow: hidden;
 	overflow-y: hidden;
+
 }
 div.img_size_3{
 	width: 40%;
-	height: 100%;
+	height: 100vh;
 	display: block;
 	overflow: hidden;
 	overflow-y: hidden;
 }
 div.img_size_4{
 	width: 40%;
-	height: 100%;
+	height: 100vh;
 	display: block;
 	overflow: hidden;
 	overflow-y: hidden;
 }
 div.img_size_5{
 	width: 40%;
-	height: 100%;
+	height: 100vh;
 	display: block;
 	overflow: hidden;
 	overflow-y: hidden;
