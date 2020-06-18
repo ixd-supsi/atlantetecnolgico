@@ -1,12 +1,69 @@
 *, *:before, *:after{
 	box-sizing: border-box;}
 
-@media only screen (max-width: 600px){
+@media only screen and (min-width: 800px) and (max-width: 1300px)
 	{
-		width: 30%;
-		margin-left: 5%;
+
+		.testo_intro{
+			padding-left: 0%;
+			padding-right: 0%;
+		}
+
+
+		.primo_periodo{
+			
+			margin-top: 150px;
+		}
+
+		.secondo_periodo{
+			float: left;
+			margin: -270px 0px 0px 0px;
+		}
+
+		.terzo_periodo{
+			float: left;
+			margin: -340px 0px 0px 0px;
+		}
+
+		.quarto_periodo{
+			float: left;
+			margin: -270px 0px 0px 0px;
+		}
+
+
+		.quinto_periodo{
+			float: left;
+			margin: -160px 0px 0px 0px;
+		}
+
+		.sesto_periodo{
+			float: left;
+			margin: -280px 0px 0px 0px;
+		}
+		.settimo_periodo{
+			float: left;
+			margin: -70px 0px 0px 0px;
+		}
+
+		.quarto_periodo{
+			float: left;
+			margin: -270px 0px 0px 0px;
+		}
+
+		.immaginona{
+			float: left;
+		}
+
+
+		
+		.ernest{
+			margin: -6px 40px 0px 0px;
+			float: left;
+		}
 	}
-}
+
+
+
 
 body{
 	background-color: black;
@@ -69,20 +126,21 @@ body{
 
 nav{
 	width: 100%;
-	height: 80px;
+	height: 90px;
 	border-top: 1px solid rgba(255,255,255,.2)
 	border-bottom:1px solid rgba(255,255,255,.2);
 	position: sticky;
 	top: 0px;
 	padding: center;
 	background-color: black;
+	opacity: 0.9;
 }
 
 nav ul{
 	text-align: center;
 	display: flex;
 	margin: 0;
-	padding: 0 27%;
+	padding: 0 23%;
 }
 
 nav ul li{
@@ -91,11 +149,12 @@ nav ul li{
 }
 
 nav ul li a{
-	padding-left: 15px;
+	padding-left: 5px;
 	padding-right: 15px;
 	text-transform:uppercase;
-	color: rgba(241, 241, 241, 0.8);
-	font-size: 20px;
+	color: #f9f9f9;
+	opacity: 0.8;
+	font-size: 18px;
 	text-decoration: none;
 	display: block;
 	font-weight: bold;
@@ -175,11 +234,13 @@ a{
     margin-left: 60px;
     font-size: 20px;
     border: none;
+
 }
 
 .dropdown {
     position: relative;
     display: inline-block;
+
 }
 
 .dropdown-content {
@@ -189,14 +250,16 @@ a{
     margin-left: 60px;
     font-size: 15px;
 
+
     z-index: 1;
 }
 
 .dropdown-content a {
     color: black;
-    padding: 12px 16px;
+    padding: 12px 160px;
     text-decoration: none;
     display: block;
+
 }
 
 .dropdown-content a:hover {background-color: lightgrey;}
@@ -276,7 +339,7 @@ a{
 
 
 
-#periods{
+#primo{
 	float: left; 
 	font-size: 27px; 
 	background: #f9f9f9;
@@ -284,7 +347,70 @@ a{
 	color:black; 
 	margin-right: 30px;
 }
-
+#secondo{
+	float: left; 
+	font-size: 27px; 
+	background: #f9f9f9;
+	padding:4px;
+	color:black; 
+	margin-right: 30px;
+}
+#terzo{
+	float: left; 
+	font-size: 27px; 
+	background: #f9f9f9;
+	padding:4px;
+	color:black; 
+	margin-right: 30px;
+}
+#quarto{
+	float: left; 
+	font-size: 27px; 
+	background: #f9f9f9;
+	padding:4px;
+	color:black; 
+	margin-right: 30px;
+}
+#quinto{
+	float: left; 
+	font-size: 27px; 
+	background: #f9f9f9;
+	padding:4px;
+	color:black; 
+	margin-right: 30px;
+}
+#sesto{
+	float: left; 
+	font-size: 27px; 
+	background: #f9f9f9;
+	padding:4px;
+	color:black; 
+	margin-right: 30px;
+}
+#settimo{
+	float: left; 
+	font-size: 27px; 
+	background: #f9f9f9;
+	padding:4px;
+	color:black; 
+	margin-right: 30px;
+}
+#ottavo{
+	float: left; 
+	font-size: 27px; 
+	background: #f9f9f9;
+	padding:4px;
+	color:black; 
+	margin-right: 30px;
+}
+#nono{
+	float: left; 
+	font-size: 27px; 
+	background: #f9f9f9;
+	padding:4px;
+	color:black; 
+	margin-right: 30px;
+}
 
 
 
@@ -299,7 +425,6 @@ a{
 
 .immaginona{
 	text-align: center;
-	margin-bottom: 5%;
 }
 
 .DT{
@@ -491,14 +616,14 @@ a{
 
 .siti{
 	margin-bottom: 5%;
-	margin-top: -20px;
 	margin-left: -23px;
 	line-height: 1.8;
+	font-size: 12px;
 }
 
 
 .col_uno{
-	margin-right: 26.5%;
+	margin-right: 30%;
 }
 
 
@@ -520,6 +645,5 @@ a{
 	bottom: 40px;
 	font-size: 10px;
 	line-height: -1;
-	margin-right: -26.5%;
 }
 
