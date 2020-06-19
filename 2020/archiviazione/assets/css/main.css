@@ -1,0 +1,87 @@
+
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: white; /* white, #FFFFFF */
+	padding: 2em;
+	margin: 0;
+	font-family: serif;
+}
+
+p {
+	margin: 0 0 1em 0;
+	font-family: sans-serif;
+
+}
+
+h4 {
+	margin:0;
+}
+
+section {
+	font-family: sans-serif;
+	font-weight: lighter;
+	clear: both;
+	float: left;
+	margin-bottom: 3em;
+	padding-top: 3em;
+	border-top: solid 2px black;
+}
+
+img {
+	width: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.h2-Salvataggio {
+	margin-bottom: 0;
+}
+
+.indietro {
+	font-family: sans-serif;
+	display: block;
+
+}
+
+.header {
+	font-family: sans-serif;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	margin-bottom: 2em;
+}
+
+.titolo-sezione {
+	float: left;
+	width: 10em;
+}
+
+.contenuto-sezione {
+	float: left;
+	width: 30em;
+}
+
+.contenitore {
+	width: 40em;
+}
+
+/* -- breakpoint: schermi piccoli, larghezza massima 500 pixel -- */
+
+@media only screen and (max-width: 500px) {
+
+	.contenitore {
+		width:100%;
+	}
+	.contenuto-sezione {
+		width: 100%;
+	}
+	.titolo-sezione {
+		width: 100%;
+	}
+}

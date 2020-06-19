@@ -1,0 +1,667 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+	background-color: black;
+	color: white;
+	padding: 0;
+	margin: 0;
+	font-family: "Avenir Next";
+	/*overflow-y: hidden; */
+}
+
+.contenitore {
+	display: flex;
+	
+}
+
+/*---------------icona menu--
+.container {
+  display: inline-block;
+  cursor: pointer;
+  position: absolute;
+  margin-left: 1550px;
+  top: 20px;
+  position: fixed;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 30px;
+  height: 1px;
+  background-color: #fff;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+---------------*/
+
+/*---------------menu lista----------------*/
+#myDIV{
+
+	
+}
+ul {
+	right:10px;
+	width: 400px;
+  	padding-left: 0px;
+ 	list-style-type: none;
+  	position: absolute;
+ 	top: 8px;
+  	position: fixed;
+  
+}
+
+
+li {
+  float: left;
+  left: 60px;
+}
+
+li a {
+  
+  color: white;
+  text-align: center;
+  padding-left: 45px;
+  text-decoration: none;
+
+}
+
+
+/*-----------home--------------------*/
+
+#indietro{
+	position: absolute;
+	position: fixed;
+	width: 30px;
+	left: 75px;
+	top: 20px;
+
+}
+#indi{
+	left: 115px;
+	top:5px;
+	position: absolute;
+	position: fixed;
+
+}
+
+
+.copertina {
+	width:100vw;
+	height: 100vh;
+	display: block;
+}
+
+
+
+.colonna_intro{
+	position: absolute;
+	width: 650px;
+	text-align: ;
+	top: 520px;
+	left: 15%;
+	font-size: 11pt;
+	
+}
+.colonna_intro p {
+	font-family: "Avenir Light";
+	line-height: 1.6em;
+	font-size: 11pt;
+}
+
+
+.immagini {
+	height: 100%;
+	width: auto;
+	display: block;
+	overflow: hidden;
+}
+
+
+
+.scanner {
+	position: absolute;
+	left: 70px;
+	top: 280px;
+	height: 170px;
+	width: auto;
+	
+}
+.introduzione{
+	color: white;
+	position: absolute;
+}
+
+/*------- logo scanner piccolo
+.logo_top{
+	
+	height: 20px;
+	width: auto;
+	position: fixed;
+	cursor: pointer;
+}
+
+div.logo{
+	position: absolute;
+	margin-left: 710px;
+	top: 3vh;
+}
+
+
+/*---------------*/
+
+.slide_show{
+	height: auto;
+	width: 100%;
+}
+
+div.img_size_2{
+	width: 545px;
+	height: 100vh;
+	display: block;
+	
+	
+	
+}
+
+div.img_size_3{
+	width: 545px;
+	height: 100vh;
+	display: block;
+
+}
+div.img_size_4{
+	width: 545px;
+	height: 100vh;
+	display: block;
+
+}
+div.img_size_5{
+	width: 545px;
+	height: 100vh;
+	display: block;
+
+}
+
+.p_img{
+	width: 100%;
+	height: auto;
+	display: block;
+	
+
+}
+
+/*----slideshow_-------
+
+div.img_size{
+	width: 35%;
+	height: 100vh;
+	display: block;
+	overflow: hidden;
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: lighter;
+  font-size: 18px;
+  transition: 0.6s ease;
+  
+  user-select: none;
+}
+
+.next {
+  margin-left: 505px;
+  
+}
+
+.prev:hover, .next:hover {
+  background-color: rgb(1,1,1);
+}
+
+.active,  {
+  background-color: #fff;
+}
+
+/* Fading animation 
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.p_img{
+	height: 100%;
+}
+
+
+--slide_2--*/
+
+div.img_size{
+	width: 545px;
+	height: 100vh;
+	display: block;
+
+}
+
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  
+  user-select: none;
+}
+
+.next {
+  margin-left: 505px;
+  
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 11px;
+  padding-bottom: 10px;
+  position: absolute;
+  bottom: 30px;
+  width: 450px;
+  margin-left: 0px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-right: 10px;
+  background-color: rgba(0,0,0,0.5);
+
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+
+
+
+/*---------------*/
+
+.colophon{
+	width: 450px;
+	padding-left: 50px;
+	margin-top: 250px;
+	
+
+}
+.p_1{
+	font-size: 19pt;
+	margin-top: 25px;
+	
+	width: 350px;
+	padding-left: 50px;
+}
+.p_2{
+	font-size: 29pt;
+	margin-top: 100px;
+	font-family: "Avenir Next Bold";
+	
+	width: 550px;
+	padding-left: 50px;
+}
+h2{
+	font-size: 24pt;
+}
+
+.sito{
+	margin-top: 85px;
+	
+	font-size: 12pt;
+	padding-left: 50px;
+}
+#sitiutilizzati{
+
+}
+.N2{
+	margin-top: 25px;
+	padding-left: 50px;
+	
+	color: white;
+	
+}
+.li2{
+	float: unset;
+	
+	line-height: 1.6em;
+}
+
+a{
+  color: white;
+}
+
+.colonna_colophon {
+	width: 600px;
+
+	overflow-x: hidden;
+
+	
+}
+
+
+/*------titolo testo immagini sezioni---------*/
+
+.colonna {
+	width: 1750px;
+	
+	padding: 0;
+	overflow-x: hidden;
+
+
+	
+}
+
+
+
+
+.colonna_last{
+	width: 1680px;
+	padding: 0;
+	overflow-x: hidden;
+
+	
+}
+
+
+
+
+
+
+div.testo{
+	position: absolute;
+	width: 1100px;
+	top: 350px;
+	margin-left: 600px;
+	display: flex;
+
+}
+
+.column {
+  columns: 2;
+  padding-top: 10px;
+  padding-right: 50px;
+  column-gap: 45px;
+  position: absolute;
+
+  
+  
+}
+
+.testo p{
+	font-family: "Avenir Light";
+	line-height: 1.6em;
+	font-size: 11pt;
+
+}
+
+.titolo h2{
+	width: 800px;
+	position: absolute;
+	font-size: 36pt;
+	margin-left: 600px;
+	top: 245px;
+	font-family: "Avenir Black";
+	letter-spacing: 0.0em;
+}
+
+.titolo h4{
+	width: 600px;
+	position: absolute;
+	font-size: 16pt;
+	margin-left: 600px;
+	top: 220px;
+	font-family: "Avenir Book";
+	letter-spacing: 0.0em;
+	font-family: "Avenir Light";
+}
+
+/*-------------*/
+@media only screen 
+and (max-width: 1500px){
+	.scanner {
+	height: 130px;
+	top: 280px;
+	}
+}
+
+@media only screen 
+and (max-width: 1200px){
+
+.prev, .next,.text {font-size: 11px}
+
+.next {
+  margin-left: 400px; 
+}
+
+.text{
+	margin-left: 0px;
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 350px;
+}
+
+.copertina{
+	width: 100vw;
+}
+
+
+
+.scanner {
+	height: 90px;
+	top: 280px;
+}
+
+.colonna {
+	width: 1100px;
+	padding: 0;
+	overflow-x: hidden;	
+}
+
+.colonna_last{
+	width: 1080px;
+	padding: 0;
+	overflow-x: hidden;
+	
+}
+
+
+
+.titolo h2{
+	width: 800px;
+	position: absolute;
+	font-size: 36pt;
+	margin-left: 460px;
+	top: 75px;
+	font-family: "Avenir Black";
+	letter-spacing: 0.0em;
+}
+
+.titolo h4{
+	width: 600px;
+	position: absolute;
+	font-size: 16pt;
+	margin-left: 460px;
+	top: 50px;
+	font-family: "Avenir Book";
+	letter-spacing: 0.0em;
+	font-family: "Avenir Light";
+}
+
+
+div.img_size_2{
+	width: 40%;
+	height: 100vh;
+	display: block;
+	overflow: hidden;
+	overflow-y: hidden;
+
+	
+}
+
+/*div.img_size_2{
+	width: 550px;
+	height: 100vh;
+	display: block;
+	overflow: hidden;
+	overflow-y: hidden;
+	
+
+}*/
+
+.p_img{
+	width: auto;
+	
+	display: block;
+	
+	margin-left: -100px;
+
+}
+
+
+
+div.img_size{
+	width: 40%;
+	height: 100vh;
+	display: block;
+	overflow: hidden;
+	overflow-y: hidden;
+
+}
+div.img_size_3{
+	width: 40%;
+	height: 100vh;
+	display: block;
+	overflow: hidden;
+	overflow-y: hidden;
+}
+div.img_size_4{
+	width: 40%;
+	height: 100vh;
+	display: block;
+	overflow: hidden;
+	overflow-y: hidden;
+}
+div.img_size_5{
+	width: 40%;
+	height: 100vh;
+	display: block;
+	overflow: hidden;
+	overflow-y: hidden;
+}
+
+/*div.img_3{
+	width: 80%;
+	height: 100vh;
+	display: block;
+	overflow: hidden;
+}*/
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: lighter;
+  font-size: 18px;
+  transition: 0.6s ease;
+  
+  user-select: none;
+}
+.column {
+		column-count: 1;
+	  	width: 100%;
+	  	padding-top: 10px;
+	  	padding-right: 20px;
+	  	top:200px;
+	}
+
+div.testo{
+	position: absolute;
+	width: 575px;
+	top: 180px;
+	margin-left: 460px;
+	display: flex;
+
+}
+
+.colonna_colophon {
+	width: 600px;
+	padding: 0;
+	overflow-x: hidden;	
+}
+
+}
+
+
+
