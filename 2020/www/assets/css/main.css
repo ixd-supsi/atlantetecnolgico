@@ -778,9 +778,8 @@ ul li a:hover {
 	padding-top: 30px;
 }
 
-.indietro {
-	padding-left: 100px;
-	padding-top: -200px;
+#indietro {
+	padding-left: 0px;
 }
 
 /* ---------- breakpoint: mobile ----------------------- */
@@ -820,10 +819,57 @@ ul li a:hover {
 		font-size: 40px;
 	}
 	.Premessa h4{
-		font-size: 80%;
+		font-size: 100%;
 	}
-	.menu-bar li{
-		width: 200%;
-		margin-top: -20%;
+	.menu-bar li a{
+		width: 500%;
+		top: 40%;
+		margin-top: 0px;
+		display: inline-block;
+	}
+	.time h4{
+		margin-right: 500px;
+		position: relative;
+	}
+	.bibliografia h5{
+		margin-right: 400px;
+	}
+	.estensioni h4{
+		margin-left: -300px;
+		font-size: 90%;
+	}
+	.point{
+		margin-left: 448px;
+	}
+	.timeline ul li {
+		margin: 0px;
+	}
+	.timeline ul li:nth-child(odd) .time2{
+		right: 392px;
+		top: -3%;
+	}
+	.timeline ul li:nth-child(odd) .time{
+		left: 8%;
+		top: -3%;
+	}
+	.timeline ul li .content2{
+		margin-left: 0px;
+	}
+	.nav .menu-bar{
+		top: 60px;
+	}
+	.footerContainer{
+		padding-left: 0px;
+		height: 300px;
+	}
+
+	footer.footer{
+		padding-left: 0px;
+		height: 300px;
+	}
+	.supsi{
+		margin-left: 100px;
+		margin-top: 200px;
+		padding-bottom: 100px;
 	}
 }
