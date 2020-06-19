@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>World Wide Web</title>
+		<meta name="author" content="Elena Paglione">
+		<meta name="copyright" content="©2020">
+		<meta name="description" content="World Wide Web: Storia">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="assets/css/main.css">
+		<script src="https://unpkg.com/pts/dist/pts.min.js"></script>
+		<script type='text/javascript' src='https://d33wubrfki0l68.cloudfront.net/js/1af56ef9dbcf990ff04e767267833d4c54f8c2a6/demo/edit/js/filesaver.min.js'></script>
+	</head>
+
+		<!-- -------------------------------------------------------------------------- -->
+<body>	
+	<canvas id="pt_canvas">
+	</canvas>
+
+<script>
+
+	// Source code licensed under Apache License 2.0. 
+	// Copyright © 2017 William Ngan. (https://github.com/williamngan/pts)
+
+	//// Demo code starts (anonymous function wrapper is optional) ---
+
+	(function() {
+	  
+	  let run = Pts.quickStart( "#pt", "#091A24" );
+	  let pts;
+
+	  run( (time, ftime)  => {
+	    // would be better to init this in player's `start` function, but we are lazy here.
+	    if (!pts) pts = Create.distributeRandom( space.innerBound, 300 );
+
+	    let t = space.pointer;
+	    pts.sort( (a,b) => a.$subtract(t).magnitudeSq() - b.$subtract(t).magnitudeSq() );
+	    
+	    form.fillOnly("#4a788c", 3);
+	    pts.forEach( (p, i) => form.point( p, 12 - 12*i/pts.length, "circle" ) )
+
+	    form.fillOnly("#091A24").points( pts, 2, "circle" );
+
+	    let three = pts.slice(0, 20);
+	    let threeLines = three.map( (p) => [p, space.pointer] );
+	    form.strokeOnly("#4a788c", 2).lines( threeLines );
+	    form.fillOnly("#4a788c").points( three, 3, "circle" );
+	  });
+
+	  //// ----  
+
+	  space.bindMouse().bindTouch().play();
+
+	})();
+</script>
+
+	<div class="header">
+		<div id="indietro"><a href="#https://ixd-supsi.github.io/atlantetecnolgico/">Indietro</a></div>
+
+			<div class="nav">
+				<ul class="menu-bar">
+					<li><a href="#cos'è">Cos'è</a></li><br>
+					<li><a href="#webinternet">Il Web e Internet</a></li><br>
+					<li><a href="#Timeline">Le origini</a></li><br>
+					<li><a href="#Evoluzione">Le estensioni del Web</a></li>
+				</ul>
+			</div>
+		<div class="contenitore" id="main">
+	</div>
+
+		<!-- -------------------------------------------------------------------------- -->
+		
+		<section>
+			<h1> World Wide Web </h1>
+		</section>
+
+		<!-- -------------------------------------------------------------------------- -->
+
+		<section>
+			<a name="cos'è"></a>	
+			<h2 id="primo_titolo"> Cos'è </h2>
+
+		<div class="contenuto-sezione-3">
+				<p>
+						Il World Wide Web
+						(letteralmente "Ragnatela globale", comunemente indicato come "WWW", "W3" o "Il Web") è uno dei principali servizi di Internet. 
+						Si tratta di un sistema interconnesso globale 
+						di pagine pubbliche accessibili dall’utente. 
+					<br>
+					<br>
+						Permette di navigare e usufruire di un insieme molto vasto di 
+						contenuti amatoriali e professionali (multimediali e non)
+						collegati tra loro attraverso legami (link) e URL, 
+						sotto forma di ipertesto. 
+						La possibilità di accedere a una cosi vasta quantità di informazioni è resa possibile 
+						dalla presenza e dalla facilità d’uso dei motori di ricerca.
+					<br>
+					<br>
+					Per accedere al World Wide Web si utilizza un opportuno software, detto browser. I documenti, detti genericamente pagine web, sono memorizzati in opportune porzioni della memoria dei server e sono tipicamente raggruppati in insiemi, più o meno uniformi per aspetto e contenuti, organizzati secondo una qualche struttura, detti siti.
+				</p>
+		</div>
+		</section>
+
+		<!-- -------------------------------------------------------------------------- -->
+
+		<section>
+			<a name="webinternet"></a>
+			<h2> Il Web e Internet</h2>
+
+			<div class="Premessa">
+
+				<h4>
+					Web e Internet non sono la stessa cosa. 
+					I due termini sono spesso utilizzati come sinonimi 
+					ma rappresentano due realtà molto diverse
+				</h4>
+
+			</div>
+
+			<div class="contenuto-sezione-3-1">
+
+					<h3>Il Web</h3><br>
+				</a>
+
+				<p2>
+					E' un servizio che opera attraverso l’internet, è l’ambiente in cui navighiamo tramite un motore di ricerca, usufruendo di link e URL. I contenuti principali del Web sono costituiti da testo e grafica, il cui formato è codificato da un insieme ristretto di standard definito dal W3C. Tali contenuti sono quelli che tutti i Web browser devono essere in grado di interpretare e rappresentare autonomamente, cioè senza software aggiuntivo.
+				</p2>
+			</div>
+
+			<div class="contenuto-sezione-3-2">
+
+					<h3>Internet</h3>
+					<br>
+					<p2>
+						E' una rete di collegamenti informatici a livello globale che permette la connessione e la comunicazione di computer tra loro o attraverso collegamenti temporanei (come via telefono), rendendone disponibili agli utenti le informazioni nella forma di immagini, filmati, ipertesti, musica... 
+						Senza internet il Web non potrebbe esistere, infatti internet esisteva cronologicamente già prima della nascita del World Wide Web.
+					</p2>
+			</div>
+		</section>
+
+		<!-- -------------------------------------------------------------------------- -->
+
+		<section>
+			<a name="Timeline"></a>
+			<div class="contenuto-sezione">
+				<h2> Le origini </h2>
+			</div>
+		</section>
+
+
+		<!-- -------------------------------------------------------------------------- -->
+
+	<div class="timeline">
+		<ul>
+			<li>
+				<div class="point"></div>
+				<div class="content">
+						<h3>Il precursore degli Ipertesti</h3>
+					</a>
+					<p>
+						Vannevar Bush, (1890 – 1974), ingegnere e tecnologo statunitense, fu il precursore degli ipertesti.
+						Scrisse un articolo per la rivista The Atlantic Monthly dal titolo As We May Think (Come potremmo pensare), che introdusse un nuovo modo di concepire i sistemi informativi avviando la riflessione sullo sviluppo dei sistemi ipertestuali
+					</p>
+				</div>
+				<div class="time">
+					<h4>1945</h4>
+				</div>
+			</li>
+		</ul>
+	</div>
+
+
+		<!-- -------------------------------------------------------------------------- -->
+
+	<div class="timeline">
+		<ul>
+			<li>
+				<div class="point"></div>
+				<div class="content2">
+					<h3>Primo concetto di Ipertesto</h3></a>
+					<p>
+						Ted Nelson (1937 - Oggi), sociologo e filosofo statunitense, coniò, nel 1963, il termine "ipertesto",
+						che avrebbe fatto la sua prima comparsa in una pubblicazione nel 1965
+					</p>
+				</div>
+				<div class="time2">
+					<h4>1965</h4>
+			</div>
+			</li>
+		</ul>
+	</div>
+
+		<!-- -------------------------------------------------------------------------- -->
+
+	<div class="timeline">
+		<ul>
+			<li>
+				<div class="point"></div>
+				<div class="content">
+					<h3>Information Management: a Proposal</h3>
+					<p>
+						Il 12 marzo lo scienziato informatico Tim Berners-Lee pubblica "Information management: a proposal". 
+						Nel paper viene delineata la sua visione di ciò che diventerà il World Wide Web ai propri superiori del CERN di Ginevra
+					</p>
+				</div>
+				<div class="time">
+					<h4>1988</h4>
+			</div>
+			</li>
+		</ul>
+	</div>
+
+		<!-- -------------------------------------------------------------------------- -->
+
+	<div class="timeline">
+		<ul>
+			<li>
+				<div class="point"></div>
+				<div class="content2">
+					<h3>WorldWideWeb Browser - Il Web statico</h3>
+					<p>
+						Tim Berners-Lee rilascia WorldWideWeb (in seguito Nexus) il giorno di Natale, il primo browser in assoluto per il web. 
+						È tutt'altro che primitivo, con un editor HTML incorporato insieme a funzionalità grafiche. <br><br>
+						<iframe width="340" height="215" src="https://www.youtube.com/embed/TGtORpr5sUg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</p>
+				</div>
+				<div class="time2">
+					<h4>1989</h4>
+			</div>
+			</li>
+		</ul>
+	</div>
+
+		<!-- -------------------------------------------------------------------------- -->
+
+	<div class="timeline">
+		<ul>
+			<li>
+				<div class="point"></div>
+				<div class="content">
+					<h3>Management proposal for a World Wide Web project</h3>
+					<p>
+						Nel novembre 1990, Sir Tim Berners-Lee, insieme al collega del CERN, Robert Cailliau, presentò una proposta di gestione formale per "WorldWideWeb: proposta per un progetto HyperText".</a>
+					</p>
+				</div>
+				<div class="time">
+					<h4>1990</h4>
+			</div>
+			</li>
+		</ul>
+	</div>
+
+		<!-- -------------------------------------------------------------------------- -->
+
+	<div class="timeline">
+		<ul>
+			<li>
+				<div class="point"></div>
+				<div class="content2">
+					<h3>Il primo Website</h3>
+					<p>
+						Il primo sito web al mondo viene messo online, 
+						ancora oggi visualizzabile nella sua grafica rudimentale <br> <br>
+						<iframe width="340" height="215" src="https://www.youtube.com/embed/hfBlzD7ZeWQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</p>
+				</div>
+				<div class="time2">
+					<h4>1991</h4>
+			</div>
+			</li>
+		</ul>
+	</div>
+
+		<!-- -------------------------------------------------------------------------- -->
+
+	<div class="timeline">
+		<ul>
+			<li>
+				<div class="point"></div>
+				<div class="content">
+					<h3>NCSA Mosaic</h3>
+					<p>
+						Il 26 gennaio Nasce Mosaic, il primo browser utilizzato a livello commerciale. La sua creazione è merito del National Center for Supercomputing Applications dell'Università dell'Illinois. Il 30 aprile, con una decisione che ha per sempre cambiato la storia della rete, il CERN, su proposta di Tim Berners-Lee, decide di rendere pubblico il World Wide Web
+					</p>
+				</div>
+				<div class="time">
+					<h4>1993</h4>
+			</div>
+			</li>
+		</ul>
+	</div>
+
+		<!-- -------------------------------------------------------------------------- -->
+
+	<div class="timeline">
+		<ul>
+			<li>
+				<div class="point"></div>
+				<div class="content2">
+					<h3>Nasce il W3C</h3>
+					<p>
+						Nasce il World Wide Web Consortium (W3C), l'organizzazione che sviluppa i protocolli e le linee guida del web per assicurarne una costante espansione
+					</p>
+				</div>
+				<div class="time2">
+					<h4>1994</h4>
+			</div>
+			</li>
+		</ul>
+	</div>
+
+		<!-- -------------------------------------------------------------------------- -->
+
+	<div class="timeline">
+		<ul>
+			<li>
+				<div class="point"></div>
+				<div class="content">
+					<h3>Internet Explorer 1.0</h3>
+					<p>
+						Nasce la prima versione di Internet Explorer, 
+						il browser di Microsoft che diventerà presto uno dei più popolari del web <br> <br>
+						<iframe width="340" height="215" src="https://www.youtube.com/embed/ds0VOvGHJOY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</p>
+				</div>
+				<div class="time">
+					<h4>1995</h4>
+			</div>
+			</li>
+		</ul>
+	</div>
+
+		<!-- -------------------------------------------------------------------------- -->
+
+	<div class="timeline">
+		<ul>
+			<li>
+				<div class="point"></div>
+				<div class="content2">
+					<h3>Google.com</h3>
+					<p>
+						Larry Page e Sergei Brin registrano il dominio di Google.com, 
+						il motore di ricerca che, grazie all'innovativo algoritmo PageRank, 
+						riuscirà a dominare questo nascente mercato <br> <br>
+
+						<iframe width="340" height="215" src="https://www.youtube.com/embed/eLWUYCQKXtE?start=137" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</p>
+				</div>
+				<div class="time2">
+					<h4>1997</h4>
+			</div>
+			</li>
+		</ul>
+	</div>
+
+		<!-- -------------------------------------------------------------------------- -->
+
+	<div class="timeline">	
+		<ul>
+			<li>
+				<div class="point"></div>
+				<div class="content">
+					<h3>Nasce Wikipedia</h3>
+					<p>
+						Il 15 gennaio 2001 Jimmy Wales e Larry Sanger danno il via alla creazione del dominio di Wikipedia, un'enciclopedia online a contenuto libero. Tra i suoi principi essenziali figurano il "punto di vista neutrale" e il rispetto del copyright. 
+					</p>
+				</div>
+				<div class="time">
+					<h4>2001</h4>
+			</div>
+			</li>
+		</ul>
+	</div>
+
+		<!-- -------------------------------------------------------------------------- -->
+					
+			</div>
+		<div class="timeline2">
+		</div>
+		</section>
+
+		<!-- -------------------------------------------------------------------------- -->
+
+		<section>
+			<a name="Evoluzione"></a>
+			<div class="contenuto-sezione-ultima">
+				<h2>Le estensioni del Web</h2>
+			</div>
+
+			<div class="estensioni">
+				<h4>Dagli anni 2000 a oggi il Web si è trasformato, passando da Web statico a Web Social, Web semantico, Web mobile e Web immersivo, in base alle esigenze dell'utente e alle innovazioni di Internet e della tecnologia.</h4>
+			</div>
+		</section>
+
+		<!-- -------------------------------------------------------------------------- -->
+
+		<div class="timeline" id="seconda_timeline">
+		<ul>
+			<li>
+				<div class="point"></div>
+				<div class="content">
+					<h3>Il Web social</h3>
+					<p>
+						 L'origine del termine si deve a Tim O’Reilly nel 2004. Si intende la fase del Web, successiva alla prima, caratterizzata dalla possibilità degli utenti di interagire e modificare i contenuti delle pagine web di un sito, portale o piattaforma web. E' strettamente collegato alla nascita ed esplosione dei social media. 
+					</p>
+				</div>
+				<div class="time">
+					<h4>2004</h4>
+				</div>
+			</li>
+		</ul>
+	</div>
+
+
+		<!-- -------------------------------------------------------------------------- -->
+
+	<div class="timeline">
+		<ul>
+			<li>
+				<div class="point"></div>
+				<div class="content2">
+					<h3>Il Web semantico</h3>
+					<p>
+						Il termine viene introdotto nel 2006 dal web designer Jeffrey Zeldman. Si intende un ambiente virtuale in cui le informazioni e i dati sono collegati tra loro e organizzati in modo da poter essere elaborati automaticamente. Un Web in cui le macchine, oltre che leggere i contenuti, li interpretano. Viene quindi trasformato in un database, con la possibilità di usare la rete come un enorme database ricco di informazioni che le applicazioni possono facilmente fornire agli utenti e che migliorano le ricerche online.
+					</p>
+				</div>
+				<div class="time2">
+					<h4>2006</h4>
+			</div>
+			</li>
+		</ul>
+	</div>
+
+		<!-- -------------------------------------------------------------------------- -->
+
+	<div class="timeline">
+		<ul>
+			<li>
+				<div class="point"></div>
+				<div class="content">
+					<h3>Il Web mobile</h3>
+					<p>
+						Il mobile Web si riferisce alla fruizione del web tramite dispositivi mobili, come tablet computer, telefoni cellulari o smartphone. 
+						Utilizza pagine leggere scritte in XHTML o Wireless Markup Language per distribuire contenuti su dispositivi mobili. Molti browser mobile vanno oltre queste limitazioni, sostenendo una più ampia gamma di formati web incluse le varianti di HTML.
+					</p>
+				</div>
+				<div class="time">
+					<h4>2010</h4>
+			</div>
+			</li>
+		</ul>
+	</div>
+
+		<!-- -------------------------------------------------------------------------- -->
+
+	<div class="timeline">
+		<ul>
+			<li>
+				<div class="point"></div>
+				<div class="content2">
+					<h3>Il Web immersivo</h3>
+					<p>
+						Con l’avvento degli smarphone e dei social la tendenza al "flat design" ha rappresentato il filone dominante. Il lancio di Oculus e degli altri visori di realtà virtuale ha inaugurato una nuova fase nella user experience, creando applicazioni immersive e possibilità di vivere una realtà virtuale. Tuttavia, i contenuti sferici sono utilizzabili con un approccio cross mediale non solo nei visori, ma anche su web, mobile e in installazioni.<br><br>
+					</p>
+				</div>
+				<div class="time2">
+					<h4>2016 </h4>
+			</div>
+			</li>
+		</ul>
+	</div>
+
+
+	<div class="timeline">
+		<ul>
+			<li>
+				<div class="point"></div>
+
+				<div class="time">
+					<h4>2020</h4>
+			</div>
+			</li>
+		</ul>
+	</div>
+
+		<!-- -------------------------------------------------------------------------- -->
+
+<section>
+<footer class="footer">
+    <div class="footerContainer">
+    		<div class="bibliografia">
+    			<h5> Sitografia </h5>
+			    	<ul>
+			    		<li>
+			    			<a href="https://developer.mozilla.org/it/docs/Glossary/World_Wide_Web" target=”_blank”>
+			    				World Wide Web - Glossary 
+			    			</a>
+			    		</ul>
+			    	</li>
+
+			    	<ul>
+			    		<li>
+			    			<a href="http://www.treccani.it/enciclopedia/internet-e-web_%28Enciclopedia-della-Scienza-e-della-Tecnica%29/" target=”_blank”>
+			    				Differenze Internet e Web in "Enciclopedia Treccani"
+			    			</a>
+			    		</ul>
+			    	</li>
+			    	<ul>
+			    		<li>
+			    			<a href="https://home.cern/science/computing/birth-web" target=”_blank”>
+			    				La Nascita Del Web - Cern Website: Accelerating Science
+			    			</a>
+			    		</ul>
+			    	</li>
+			    	<ul>
+			    		<li>
+			    			<a href="https://it.wikipedia.org/wiki/Storia_del_World_Wide_Web" target=”_blank”>
+			    				La Storia Del World Wide Web - Wikipedia
+			    			</a>
+			    		</ul>
+			    	</li>
+
+			    	<ul>
+			    		<li>
+			    			<a href="https://www.w3.org/People/Berners-Lee/WorldWideWeb.html" target=”_blank”>
+			    				The First Www Browser by Berners-Lee
+			    			</a>
+			    		</ul>
+			    	</li>
+
+
+			    	<ul>
+			    		<li>
+			    			<a href="http://info.cern.ch/hypertext/WWW/TheProject.html" target=”_blank”>
+			    				The First World Wide Web Project - Cern.
+			    			</a>
+			    		</ul>
+			    	</li>
+
+			    	<ul>
+			    		<li>
+			    			<a href="https://curatti.com/the-evolution-of-the-world-wide-web-infographic/" target=”_blank”>
+			    			L'Evoluzione Del World Wide Web [Infografica] di Grazitti Interactive
+			    			</a>
+			    		</ul>
+			    	</li>
+			    	<ul>
+			    		<li>
+			    			<a href="https://medium.com/@tuhfatussalisah/world-wide-web-from-web-1-0-to-web-4-0-and-society-5-0-48690a43b776" target=”_blank”>Www: From Web 1.0 To Web 4.0 And Society 5.0
+			    			</a>
+			    		</ul>
+			    	</li>
+
+    </div>
+
+    <div class="supsi">
+    	<h3>Atlante Tecnologico 
+    		<br> Il World Wide Web 
+    	</h3> <br>
+
+    	<p> 
+    		© Elena Paglione <br> 
+    		SUPSI <br> 
+    		Corso di Interaction Design, A.A. 2019-2020 <br> 
+    		Docenti: Andreas Gysin, Giovanni Profeta
+    	</p>
+</div>
+</footer>
+
+</section>
+
+</div>
+
+</body>
+</html>
