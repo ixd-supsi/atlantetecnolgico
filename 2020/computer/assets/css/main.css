@@ -174,10 +174,11 @@
               font-size: 0.9vw;
               font-weight: lighter;
               color: white;  
-              margin-left: 9%;
-              margin-bottom: 8%;
+              margin-left: 8%;
+              margin-bottom: 7%;
               padding-right: 12%;
               line-height: 1.4vw;
+
             }
 
 
@@ -187,19 +188,19 @@
 .text8 {
                 color: white;
               position: absolute;
-              padding-right: 140px;
-            bottom: 20px;
+              padding-right: 0px;
+            bottom: 0px;
               text-align: left;
-              line-height: 30px;
+              line-height: 0px;
             }
 
 .text10 {
               color: black;
               position: absolute;
-              padding-right: 140px;
-            bottom: 20px;
+              padding-right: 0px;
+            bottom: 0px;
               text-align: left;
-              line-height: 30px;
+              line-height: 0px;
             }
 
             h5 { 
@@ -212,11 +213,12 @@
             }
 
             h3 { 
-                font-family: helvetica Neue; 
+               font-family: helvetica Neue; 
               font-size: 2vw;
               color: black; 
               margin-left: 8%;
-              margin-top: -1%;
+              margin-top: -2.5%;
+
 
              
 
@@ -227,18 +229,28 @@
               font-size: 0.9vw;
               font-weight: lighter;
               color: black;  
-              margin-left: 9%;
+               margin-left: 8%;
+              margin-bottom: 10%;
+              padding-right: 12%;
+               line-height: 1.4vw;
+            }
+
+             }
+
+            h12 { 
+               font-family: Montserrat-thin; 
+              font-size: 0.9vw;
+              font-weight: lighter;
+              color: black;  
+              margin-left: 100%;
               margin-bottom: 8%;
               padding-right: 12%;
+               line-height: 1.4vw;
             }
 
 
                       
-
-
-
-
-                      h8 { 
+             h8 { 
                              font-family: Helvetica Neue; 
                              font-weight: bolder;
                              font-size: 110px;
@@ -261,15 +273,18 @@
               color: black; 
 
             }
+            
+
+
             h9 { 
-               font-family: Ubuntu-bold; 
-              font-size: 110px;
-              color: black; 
-              margin-left: 63px;
-              
-                  padding-right: 40px
-
-
+               font-family: Montserrat-thin; 
+              font-size: 0.9vw;
+              font-weight: lighter;
+              color: white;  
+              margin-left: 8%;
+              margin-bottom: 7%;
+              padding-right: 12%;
+              line-height: 1.4vw;
 
             }
             
@@ -331,7 +346,7 @@
             }
 
 
-
+       
 
             section.type-a {
              background-color: black;
@@ -350,6 +365,19 @@
                 margin-top: 18%;
                 display: block;
             }
+
+
+
+.colophon {
+  width: 800px;
+  margin-top: 80%;
+  margin-left: 0%;
+  padding: 0;
+  
+}
+
+
+
 
 
 
