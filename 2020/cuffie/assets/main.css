@@ -1,7 +1,7 @@
 *, *:before, *:after{
 	box-sizing: border-box;}
 
-@media only screen and (max-width: 1300px)
+@media only screen and (max-width: 1200px)
 	{
 
 
@@ -19,23 +19,72 @@
 
 		.ernest {
 			min-width: 25%;
-			float: left;
-			margin: 0;
+			height: auto;
 		}
+
+
+		.baldwin{
+			min-width: 25%;
+			height: auto;
+		}
+
+
+		.DT{
+			min-width: 25%;
+			height: auto;
+
+		}
+
+		.koss{
+			min-width: 25%;
+			height: auto;
+		}
+
+
+		.Sennheiser{
+			min-width: 25%;
+			height: auto;
+		}
+
+		.walkman {
+			min-width: 25%;
+			height: auto;
+		}
+
+		
+		.airpods{
+			min-width: 25%;
+			height: auto;
+			margin: 300px 0px 0px 0px;
+		}
+
+		.airpods_two{
+			min-width: 25%;
+			height: auto;
+			margin: 300px 0px 0px 0px;
+		}
+
+
+
 
 
 		.secondo_periodo{
 			float: left;
 			margin: -270px 0px 0px 0px;
 			font-size: 14px;
+		}
 
+		.immaginona{
+			width: 35%;
 		}
 
 		.terzo_periodo{
 			float: left;
-			margin: -230px 0px 0px 0px;
+			margin: -180px 0px 0px 0px;
 			font-size: 14px;
 		}
+
+
 
 		.quarto_periodo{
 			float: left;
@@ -43,12 +92,19 @@
 			font-size: 14px;
 		}
 
+		.koss_adv{
+			width: 35%;
+			margin: 500px 30px 0px 0px;
+		}
+
+		.amen{
+			margin: 580px 30px 0px 0px;
+		}
 
 		.quinto_periodo{
 			float: left;
-			margin: -170px 0px 0px 0px;
+			margin: -190px 0px 0px 0px;
 			font-size: 14px;
-
 		}
 
 		.sesto_periodo{
@@ -57,18 +113,23 @@
 			font-size: 14px;
 		}
 		.settimo_periodo{
-			margin: -790px 0px 0px 0px;
+			margin: -700px 0px 0px 0px;
 			font-size: 14px;
-
 		}
 
+		.revolution{
+			width: 0%;
+		}
 
 
 		.ottavo_periodo{
 			float: left;
 			margin: -270px 0px 0px 0px;
 			font-size: 14px;
+		}
 
+		.ottavo{
+			float: right;
 		}
 
 		.dispo_odie{
@@ -80,6 +141,7 @@
 
 		.immaginona{
 			float: left;
+			margin: -430px 0px 0px 0px;
 		}
 
 	
@@ -91,11 +153,7 @@
 		}
 
 
-		.one{
-			float: right;
-			display: inline-block;
-    		vertical-align: top;
-		}
+	
 
 		.two{
 			float: right;
@@ -141,32 +199,13 @@
 		}
 
 
-		.ernest{
-			float: left;
-			margin: 500px 0px 0px 0px;
-		}
-
-		nav{
-			margin-left: -30px;
-		}
-}
-
-	}
-
-
-
-@media only screen and (max-width: 400px)
-	{
-		.ernest {
-			min-width: 55%;
-			float: left;
-			margin: 0;
-		}
 		
-		.primo_periodo{
-			margin-bottom: 10%;
-		}
+
+
 	}
+
+	
+
 
 
 body{
@@ -555,6 +594,10 @@ a{
 }
 
 .airpods{
+	width: 18%;
+}
+
+.airpods_two{
 	width: 18%;
 }
 
