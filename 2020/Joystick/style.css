@@ -164,7 +164,7 @@ header h1 {
 	margin-left: 150px;
 	margin-right: 50px;
 	margin-top: 100px;
-	font-family: Arial;
+	font-family: Helvetica;
 
 }
 
@@ -179,7 +179,7 @@ header h1 {
 }
 
 .indietro{
-	font-family: Arial;
+	font-family: Helvetica;
 	margin-left: 50px;
 	margin-top: 150px;
 	cursor: pointer;
