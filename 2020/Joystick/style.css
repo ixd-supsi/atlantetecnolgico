@@ -1,0 +1,185 @@
+* {
+	margin: 0;
+}
+body {
+	background-color: #242424;
+	padding: 0;
+	margin: 0;
+	color: white;
+}
+.dot1 {
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	float: left;
+	margin-left: 55px; 
+	margin-top: 0px;
+
+}
+
+.dot2 {
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	float: left;
+	margin-left: 55px; 
+	margin-top: 97px;
+
+
+}
+
+.dot3 {
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	float: left;
+	margin-left: 55px; 
+	margin-top: 97px;
+
+}
+
+.dot4 {
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	float: left;
+	margin-left: 55px; 
+	margin-top: 97px;
+
+}
+
+.testo {
+	width: 30%;
+	margin-bottom: 100px;
+}
+
+.testo_des {
+	width: 30%;
+	float: right;
+}
+
+.immagine_sin {
+	width: 65%;
+}
+
+.testo_sin {
+	width: 30%;
+	float: left;
+}
+
+.immagine_des {
+	margin-left: 5%;
+	width: 65%;
+}
+
+.immagine_des_2 {
+	margin-left: 5%;
+	width: 29%;
+}
+
+
+.immagine_centro {
+	margin-left: 5%;
+	width: 30%;
+	margin-bottom: 100px;
+}
+
+.immagine_centro_2 {
+	margin-left: 35%;
+	width: 30%;
+	margin-bottom: 100px;
+}
+
+.immagine_grande {
+	width: 100%;
+}
+
+h1 {
+	font-size: 50px;
+}
+
+h2 {
+	font-size: 32px;
+	margin-bottom: 50px;
+}
+
+h3 {
+	font-size: 24px;
+}
+
+
+header {
+	width: 100%;
+	padding: 30px 0;
+	border-bottom: 1px solid white;
+	position: fixed;
+	background:  #242424;
+	margin-bottom: 200px;
+	top: 0;
+
+}
+
+.barra-colorata {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+
+.giallo {
+	flex-basis: 50px;
+	border-bottom: 8px solid yellow;
+	color:#feb811;
+}
+
+.verde {
+	flex-basis: 50px;
+	border-bottom: 8px solid green;
+	color: #00af9d;
+}
+
+.blu {
+	flex-basis: 50px;
+	border-bottom: 8px solid blue;
+	color: #0074bb;
+}
+
+.rosso {
+	flex-basis: auto;
+	flex-grow: 1;
+	border-bottom: 8px solid red;
+	color: #ee1c25;
+}
+
+
+
+header h1 {
+	text-transform: uppercase;
+	color: white;
+	font-family: Krungthep, sans-serif;
+	margin-left: 150px;
+	margin-top: 0;
+}
+
+.container {
+	margin-left: 150px;
+	margin-right: 50px;
+	margin-top: 100px;
+	font-family: "Futura (T1) CE Light", Helvetica, sans-serif;
+
+}
+
+
+.footer {
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+
+.corposito {
+	margin-top: 100px;
+}
+
+.indietro{
+	font-family: "Futura (T1) CE Light", Helvetica, sans-serif;
+	margin-left: 50px;
+	margin-top: 150px;
+}
