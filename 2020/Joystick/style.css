@@ -164,7 +164,7 @@ header h1 {
 	margin-left: 150px;
 	margin-right: 50px;
 	margin-top: 100px;
-	font-family: "Futura (T1) CE Light", Helvetica, sans-serif;
+	font-family: Helvetica;
 
 }
 
@@ -179,7 +179,7 @@ header h1 {
 }
 
 .indietro{
-	font-family: "Futura (T1) CE Light", Helvetica, sans-serif;
+	font-family: Helvetica;
 	margin-left: 50px;
 	margin-top: 150px;
 	cursor: pointer;
