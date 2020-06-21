@@ -4,6 +4,7 @@
 @media only screen and (max-width: 1300px)
 	{
 
+
 		.testo_intro{
 			padding-left: 0%;
 			padding-right: 0%;
@@ -13,46 +14,68 @@
 		.primo_periodo{
 			
 			margin-top: 150px;
+			font-size: 14px;
 		}
+
+		.ernest {
+			min-width: 25%;
+			float: left;
+			margin: 0;
+		}
+
 
 		.secondo_periodo{
 			float: left;
 			margin: -270px 0px 0px 0px;
+			font-size: 14px;
+
 		}
 
 		.terzo_periodo{
 			float: left;
-			margin: -340px 0px 0px 0px;
+			margin: -230px 0px 0px 0px;
+			font-size: 14px;
 		}
 
 		.quarto_periodo{
 			float: left;
 			margin: -270px 0px 0px 0px;
+			font-size: 14px;
 		}
 
 
 		.quinto_periodo{
 			float: left;
 			margin: -170px 0px 0px 0px;
+			font-size: 14px;
+
 		}
 
 		.sesto_periodo{
 			float: left;
 			margin: -280px 0px 0px 0px;
+			font-size: 14px;
 		}
 		.settimo_periodo{
-			float: left;
-			margin: -70px 0px 0px 0px;
+			margin: -790px 0px 0px 0px;
+			font-size: 14px;
+
 		}
+
+
 
 		.ottavo_periodo{
 			float: left;
 			margin: -270px 0px 0px 0px;
+			font-size: 14px;
+
 		}
 
 		.dispo_odie{
 			float: left;
 			margin: 0px 0px 0px 0px;
+			font-size: 14px;
+
 		}
 
 		.immaginona{
@@ -63,6 +86,50 @@
 		.cata{
 			width: 100%;
 			float: right;
+			font-size: 14px;
+
+		}
+
+
+		.one{
+			float: right;
+			display: inline-block;
+    		vertical-align: top;
+		}
+
+		.two{
+			float: right;
+			display: inline-block;
+    		vertical-align: top;
+		}
+		.three{
+			float: right;
+			display: inline-block;
+    		vertical-align: top;
+		}
+
+		.four{
+			float: right;
+			display: inline-block;
+    		vertical-align: top;
+		}
+
+		.five{
+			float: right;
+			display: inline-block;
+    		vertical-align: top;
+		}
+
+		.six{
+			float: right;
+			max-width: 50%;
+			display: inline;
+		}
+
+		.info_tec{
+			float: right;
+			font-size: 14px;
+
 		}
 		
 		.colophon{
@@ -72,9 +139,34 @@
 			margin-right: 90%;
 			margin-left: 10%;
 		}
+
+
+		.ernest{
+			float: left;
+			margin: 500px 0px 0px 0px;
+		}
+
+		nav{
+			margin-left: -30px;
+		}
+}
+
 	}
 
 
+
+@media only screen and (max-width: 400px)
+	{
+		.ernest {
+			min-width: 55%;
+			float: left;
+			margin: 0;
+		}
+		
+		.primo_periodo{
+			margin-bottom: 10%;
+		}
+	}
 
 
 body{
@@ -143,9 +235,9 @@ nav{
 	border-bottom:1px solid rgba(255,255,255,.2);
 	position: sticky;
 	top: 0px;
-	padding: center;
 	background-color: black;
 	opacity: 0.9;
+	margin: 0;
 }
 
 nav ul{
@@ -161,8 +253,8 @@ nav ul li{
 }
 
 nav ul li a{
-	padding-left: 5px;
-	padding-right: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
 	text-transform:uppercase;
 	color: #f9f9f9;
 	opacity: 0.8;
@@ -176,8 +268,6 @@ nav ul li a{
 nav ul li a:hover{
 	 box-shadow: 0 0 10px
 }
-
-
 
 
 
@@ -497,6 +587,11 @@ a{
 	width: 30%;
 }
 
+
+
+
+
+
 .one{
 	border: solid;
 	border-color: white;
@@ -538,6 +633,7 @@ a{
 	border-width: 1px;
 	padding: 2%;
 }
+
 
 
 
