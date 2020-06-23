@@ -36,9 +36,8 @@
                 padding: 0;
                 list-style: none;
             }
-
             .author {
-                width: 150px;
+                width: 200px;
                 display: inline-block;
             }
             h4{
@@ -61,6 +60,14 @@
             hr{
                 opacity: 0.2;
                 margin:1em 0 1em 0;
+            }
+            @media only screen and (max-width: 600px) {
+                .author {
+                    display: block;
+                }
+                li {
+                    margin-bottom: 1em;
+                }
             }
         </style>
     </head>
