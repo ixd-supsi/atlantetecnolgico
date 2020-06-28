@@ -127,26 +127,26 @@ header {
 
 .giallo {
 	flex-basis: 50px;
-	border-bottom: 8px solid yellow;
-	color:#feb811;
+	border-bottom: 8px solid #fcb730;
+	color: #fcb730;
 }
 
 .verde {
 	flex-basis: 50px;
-	border-bottom: 8px solid green;
+	border-bottom: 8px solid #00af9d;
 	color: #00af9d;
 }
 
 .blu {
 	flex-basis: 50px;
-	border-bottom: 8px solid blue;
+	border-bottom: 8px solid #0074bb;
 	color: #0074bb;
 }
 
 .rosso {
 	flex-basis: auto;
 	flex-grow: 1;
-	border-bottom: 8px solid red;
+	border-bottom: 8px solid #ee1c25;
 	color: #ee1c25;
 }
 
@@ -164,7 +164,7 @@ header h1 {
 	margin-left: 150px;
 	margin-right: 50px;
 	margin-top: 100px;
-	font-family: "Futura (T1) CE Light", Helvetica, sans-serif;
+	font-family: Helvetica;
 
 }
 
@@ -179,7 +179,13 @@ header h1 {
 }
 
 .indietro{
-	font-family: "Futura (T1) CE Light", Helvetica, sans-serif;
+	font-family: Helvetica;
 	margin-left: 50px;
 	margin-top: 150px;
+	cursor: pointer;
+}
+
+a{
+	text-decoration: none;
+	color: white;
 }

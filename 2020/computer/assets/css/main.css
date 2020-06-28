@@ -1,271 +1,383 @@
 
 
+          /* scroll */
 
-
-html {
-  overflow:   scroll;
-}
-::-webkit-scrollbar {
-    width: 0px;
-    background: black; /* make scrollbar transparent */
-}
-/* The navigation bar */
-.navbar {
-  overflow: hidden;
-  background-color: none;
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
- font-family: Ubuntu-Light; 
-  font-size: 30px;
-  color: white; 
- -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: grey;
-
-}
+        html {
+          overflow:   scroll;
+            }             
+          ::-webkit-scrollbar {
+          width: 0px;
+          background: black; 
+          }
 
 
 
-/* Links inside the navbar */
-.navbar a {
-  float: right;
-  display: block;
-   color: white; 
- -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
-  text-align: center;
-  padding: 60px 60px;
-  text-decoration: none;
 
+          /* barra di navigazione */
 
+          .navbar {
+           overflow: hidden;
+           background-color: none;
+            position: absolute; /* Set the navbar to fixed position */
+            top: 0; /* Position the navbar at the top of the page */
+            width: 100%; /* Full width */
+          font-family: Ubuntu-Light; 
+          font-size: 30px;
+          color: white; 
+          -webkit-text-stroke-width: 1px;
+         -webkit-text-stroke-color: grey;
 
 }
 
-/* Change background on mouse-over */
-.navbar a:hover {
-  background: none;
-  color: none;
-
-}
-
-/* Main content */
-.main {
-  margin-top: 0px; /* Add a top margin to avoid content overlay */
-}
-
-#nav {
-    z-index: 1;
-
-}
+          .navbar a {
+          float: right;
+          display: block;
+           color: white; 
+         -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: black;
+          text-align: center;
+          padding: 60px 60px;
+          text-decoration: none;
 
 
 
+          }
 
+          /* Change background on mouse-over */
+          .navbar a:hover {
+            background: none;
+            color: none;
 
+          }
 
-}
+          /* Main content */
+          .main {
+            margin-top: 0px; /* Add a top margin to avoid content overlay */
+          }
 
-html {
-  box-sizing: border-box;
+          #nav {
+              z-index: 1;
 
-}
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
-<body{
-	 /* white, #FFFFFF */
-	padding: 0;
-	margin: 0;
-	font-family: Ubuntu-bold;
-	 font-family: Montserrat-thin; 
+          }
 
 
 
 
-}
+
+       
 
 
+        html {
+          box-sizing: border-box;
 
-h1 { 
-   font-family: jost-light; 
-  font-size: 18px;
-  color: white;  
-  margin-left: 63px;
-  margin-top: 160px;
-}
+        }
+        *, *:before, *:after {
+          box-sizing: inherit;
+        }
 
-h4 { 
-   font-family: Ubuntu-bold; 
-  font-size: 32px;
-  color: white; 
-  margin-left: 63px;
-  margin-top: -20px;
-
-}
-h6 { 
-   font-family: Montserrat-thin; 
-  font-size: 15px;
-  color: white;  
-  	font-weight: lighter;
-  margin-left: 63px;
-  margin-top: 160px;
-}
-
-
-
-h5 { 
-   font-family: jost-light; 
-  font-size: 18px;
-  color:black;  
-  margin-left: 63px;
-  margin-top: 80px;
-
-}
-
-h3 { 
-   font-family: Ubuntu-bold; 
-  font-size: 40px;
-  color: black; 
-  margin-left: 63px;
-  margin-top: -20px;
-
+        <body{
+        	 /* white, #FFFFFF */
+        	padding: 0;
+        	margin: 0;
  
 
-}
-h8 { 
-   font-family: Ubuntu-bold; 
-  font-size: 110px;
-  color: black; 
-  margin-left: 63px;
-      padding-right: 40px
-}
-     h7 { 
-   font-family: jost-light; 
-  font-size: 15px;
-  color: black; 
-    z-index: 3;
-    margin-top: 600px;
+
+           /* barra di navigazione */
 
 }
 
-     h10 { 
-   font-family: jost-light; 
-  font-size: 18px;
-  color: black; 
 
-}
-h9 { 
-   font-family: Ubuntu-bold; 
-  font-size: 110px;
-  color: black; 
-  margin-left: 63px;
+
+        /* scrittura a macchina */
+
+
+
+
+          body {
+            padding-top: 0px;
+            padding-right: 0px;
+            background-color: trasparent;
+          }
+
+          p {
+            border-right: solid 6px ;
+            white-space: nowrap;
+            overflow: hidden;
+            color: black;
+            font-family: Helvetica Neue; 
+            font-weight: bolder;
+           font-size: 5vw;
+           
+          }
+
+          /* Animation */
+          p {
+            animation: animated-text 4s steps(29, end) 1s 1 normal both,
+              animated-cursor 600ms steps(29, end) infinite;
+          }
+
+          /* text animation */
+
+          @keyframes animated-text {
+            from {
+              width: 0.01vw;
+            }
+            to {
+              width: 90vw;
+            }
+          }
+
+          /* cursor animations */
+
+          @keyframes animated-cursor {
+            from {
+              border-right-color: grey;
+
+            }
+            to {
+              border-right-color: transparent;
+
+            }
+          }
+
+
+
+
+
+          /* text animation */
+
+
+
+            h1 { 
+               font-family: helvetica neue; 
+              font-size: 1vw;
+              color: white; 
+              margin-left: 8%;
+              margin-top: -10%;
+
+            }
+
+            h4 { 
+               font-family: helvetica Neue; 
+              font-size: 2vw;
+              color: white; 
+              margin-left: 8%;
+              margin-top: -1%;
+
+            }
+
+
+        
+
+            h6 { 
+               font-family: Montserrat-thin; 
+              font-size: 0.9vw;
+              font-weight: lighter;
+              color: white;  
+              margin-left: 8%;
+              margin-bottom: 7%;
+              padding-right: 12%;
+              line-height: 1.4vw;
+
+            }
+
+
+
+
+
+.text8 {
+                color: white;
+              position: absolute;
+              padding-right: 0px;
+            bottom: 0px;
+              text-align: left;
+              line-height: 0px;
+            }
+
+.text10 {
+              color: black;
+              position: absolute;
+              padding-right: 0px;
+            bottom: 0px;
+              text-align: left;
+              line-height: 0px;
+            }
+
+            h5 { 
+                font-family: helvetica neue; 
+              font-size: 1vw;
+              color: black; 
+              margin-left: 8%;
+              margin-top: -10%;
+
+            }
+
+            h3 { 
+               font-family: helvetica Neue; 
+              font-size: 2vw;
+              color: black; 
+              margin-left: 8%;
+              margin-top: -2.5%;
+
+
+             
+
+            }
+
+            h2 { 
+               font-family: Montserrat-thin; 
+              font-size: 0.9vw;
+              font-weight: lighter;
+              color: black;  
+               margin-left: 8%;
+              margin-bottom: 10%;
+              padding-right: 12%;
+               line-height: 1.4vw;
+            }
+
+             }
+
+            h12 { 
+               font-family: Montserrat-thin; 
+              font-size: 0.9vw;
+              font-weight: lighter;
+              color: black;  
+              margin-left: 100%;
+              margin-bottom: 8%;
+              padding-right: 12%;
+               line-height: 1.4vw;
+            }
+
+
+                      
+             h8 { 
+                             font-family: Helvetica Neue; 
+                             font-weight: bolder;
+                             font-size: 110px;
+                             color: black; 
+                             margin-left: 63px;
+                             padding-right: 60px
+                              }
+                 h7 { 
+               font-family: jost-light; 
+              font-size: 15px;
+              color: black; 
+                z-index: 3;
+                margin-top: 600px;
+
+            }
+
+                 h10 { 
+               font-family: jost-light; 
+              font-size: 0.9vw;;
+              color: black; 
+
+            }
+            
+
+
+            h9 { 
+               font-family: Montserrat-thin; 
+              font-size: 0.9vw;
+              font-weight: lighter;
+              color: white;  
+              margin-left: 8%;
+              margin-bottom: 7%;
+              padding-right: 12%;
+              line-height: 1.4vw;
+
+            }
+            
+
+
+            .contenitore {
+            	display: flex;
+
+
+            }
+
+            header{
+            	height:100vh;
+              background-color: none;
+
+            }
+
+            .copertina {
+            	width:100vw;
+
+              
+
+            }
+
+            section {
+
+            	height:100vh;
+
+            }
+
+            
+
+            .titolo-sezione {
+              margin-left: 5%;
+              margin-top: 17%;
+
+
+            }
+
+             .titolo-titolo-sezione {
+              margin-left: 8%;
+              margin-top: 10%;
+
+
+            }
+            
+            .contenuto-sezione {
+            	width: 50vw;
+
+
+            }
+
+
+            .contenuto-1{
+              margin-left: 5%;
+              margin-right: 60%;
+
+
+            }
+
+
+       
+
+            section.type-a {
+             background-color: black;
+            }
+
+
+
+
+
+              img {
+                max-width:85%;
+                height:auto;
+                width: auto;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 18%;
+                display: block;
+            }
+
+
+
+.colophon {
+  width: 800px;
+  margin-top: 80%;
+  margin-left: 0%;
+  padding: 0;
   
-      padding-right: 40px
-
-
-
-}
-h2 { 
-   font-family: Montserrat-thin; 
-  font-size: 15px;
-  color: black;  
-  margin-left: 63px;
-  margin-top: 30%;
-  	font-weight: lighter;
-  	
-}
-
-
-.contenitore {
-	display: flex;
-
-
-}
-
-header{
-	height:100vh;
-  background-color: none;
-
-}
-
-.copertina {
-	width:100vw;
-
-  
-
-}
-
-section {
-
-	height:100vh;
-
-}
-
-.titolo-sezione {
-	margin-bottom: 1em;
-
-
-}
-
-.contenuto-sezione {
-	width: 50vw;
-
-
-}
-
-.contenuto-sezione p{
-	width: 75%;
-
-  width: 50vw;
-}
-
-
-.contenuto-1{
-  width: 75%;
-
-
-  width: 50vw;
-
-}
-
-.contenuto-1 {
-  width: 50vw;
-
-
-}
-
-
-.contenuto-2{
-  width: 70%;
-
-  width: 50vw;
-    
-}
-
-.contenuto-2 {
-  width: 50vw;
-
-
-}
-section.type-a {
- background-color: black;
 }
 
 
 
-
-
-  img {
-    max-width:87%;
-    height:auto;
-    width: auto;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 120px;
-    display: block;
-    top: 0; left: 0; bottom: 0; right: 0;
-}
 
 
 

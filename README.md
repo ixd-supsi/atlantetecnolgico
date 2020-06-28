@@ -1,6 +1,6 @@
 # atlantetecnolgico.github.io
-Atlante tecnologico
-SUPSI
+Atlante tecnologico  
+SUPSI  
 Primavera 2020  
 
 Versione live:  
